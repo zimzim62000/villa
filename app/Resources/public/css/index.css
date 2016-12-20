@@ -5519,7 +5519,7 @@ a.thumbnail image {
 /* line 38, ../../../../node_modules/foundation-sites/scss/components/_title-bar.scss */
 .title-bar {
   padding: 0.5rem;
-  background: #0a0a0a;
+  background: #01B0F0;
   color: #fefefe;
 }
 /* line 146, ../../../../node_modules/foundation-sites/scss/util/_mixins.scss */
@@ -5652,7 +5652,7 @@ a.thumbnail image {
 /* line 47, ../../../../node_modules/foundation-sites/scss/components/_top-bar.scss */
 .top-bar,
 .top-bar ul {
-  background-color: #85C630;
+  background-color: #01B0F0;
 }
 /* line 60, ../../../../node_modules/foundation-sites/scss/components/_top-bar.scss */
 .top-bar input {
@@ -5910,7 +5910,7 @@ a.thumbnail image {
 
 /* line 27, ../scss/index.scss */
 .tertiary-color {
-  color: #85C630;
+  color: #01B0F0;
 }
 
 /* line 30, ../scss/index.scss */
@@ -5918,7 +5918,22 @@ a.thumbnail image {
   max-width: 100%;
 }
 
-/* line 34, ../scss/index.scss */
+/* line 33, ../scss/index.scss */
+.fullfull-width {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* line 38, ../scss/index.scss */
 img.small {
   max-height: 175px;
+}
+
+/* line 42, ../scss/index.scss */
+#topbar1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
 }

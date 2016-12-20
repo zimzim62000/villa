@@ -5887,32 +5887,32 @@ a.thumbnail image {
   background: transparent;
 }
 
-/* line 12, ../scss/index.scss */
+/* line 13, ../scss/index.scss */
 .padding-top {
   padding-top: 4rem;
 }
 
-/* line 16, ../scss/index.scss */
+/* line 17, ../scss/index.scss */
 .padding-bottom {
   padding-bottom: 4rem;
 }
 
-/* line 20, ../scss/index.scss */
+/* line 21, ../scss/index.scss */
 .primary-color {
   color: #01B0F0;
 }
 
-/* line 23, ../scss/index.scss */
+/* line 24, ../scss/index.scss */
 .secondary-color {
   color: #FF73BF;
 }
 
-/* line 26, ../scss/index.scss */
+/* line 27, ../scss/index.scss */
 .tertiary-color {
   color: #85C630;
 }
 
-/* line 29, ../scss/index.scss */
+/* line 30, ../scss/index.scss */
 .full-width {
   max-width: 100%;
 }

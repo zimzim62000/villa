@@ -2,7 +2,10 @@ app:
     index:
         topbar:
             login: "Connexion"
-            reserved: "Réservé"
+            lamaison: "La maison"
+            lejardin: "Le jardin et la plage"
+            lenvironement: "L'environement"
+            activity: "Les activités"
         title: "La Villa Désirée"
         titlemeta: "La Villa Désirée, location de maison de vacances avec piscine privée à Deshaies en GUADELOUPE"
         h1: "Bienvenue à Villa Désirée, location de maison de vacances avec piscine privée à Deshaies en GUADELOUPE"
@@ -46,5 +49,27 @@ app:
         plagep: >
             A partir de la villa, vous avez à moins de 5 minutes à pied, la jolie plage de Fort Royal (aussi appelée la plage de l’Anse du petit bas vent).
             C’est une plage de sable fin et clair avec une mer peu agitée et quelques cocotiers. C’est une plage ouverte à tous avec accès par le parking de l'hôtel Fort Royal.
+        guada: "La Guadeloupe - un paradis sur terre"
+        guadaclimat: "Le climat et l’environnement"
+        guadaclimatp: >
+            Le Nord Basse Terre, est une zone bien ventilée, étant située en bordure de l’océan.<br />
+            Les pluies sont plus fréquentes que sur la Grande Terre, mais moindres que sur le massif montagneux de la Soufrière toute proche.<br />
+            En journée, la température est comprise entre 27° et 32°, avec une légère baisse pendant la nuit. Celle de la mer varie de 25 à 28°.<br />
+            Au Nord Basse Terre, les activités traditionnelles sont maintenues : pêche (thon, thazard, marlin, dorade, coryphène, vivaneau, langoustes…), agriculture (canne à sucre), complétées désormais par le tourisme. La nature environnante est protégée ou surveillée par le « Parc National de Guadeloupe ». Il est possible de voir des espèces rares ou protégées : iguanes, tortues (zone de pontes), frégates, et peut être lamantin.
+        activity: "Les plages, les visites à proximité"
+        activityp: >
+            A proximité, vous aurez la possibilité d’occuper vos journées ou 1/2 journées par les activités suivantes
+            le farniente et la baignade sur de belles plages : Cluny, Amandiers, Tillet, La Perle, Grande Anse, Leroux…<br />
+            la plongée sous-marine : clubs à Deshaies et Sainte Rose<br />
+            Mais on peut également explorer en masque et tuba (beaucoup de jolis poissons et tortues).
+            une sortie en mer (pêche ou découverte de cachalots, baleines, dauphins…)
+            l’équitation (club des deux îlets tout proche)
+            les visites de rhumeries : Reymonenq (et son musée) et Severin (avec sa roue à aubes).
+        decouverte:
+        decouvertep: >
+
+
+
+
 
 

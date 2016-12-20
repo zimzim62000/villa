@@ -9,6 +9,9 @@
     background: transparent;
 }
 
+.title-bar{
+    background: rgba(1, 176, 240, 0.4);
+}
 
 .padding-top{
     padding-top: 2rem;
@@ -30,7 +33,19 @@
 .full-width{
     max-width: 100%;
 }
+.fullfull-width{
+    max-width: 100%;
+    width:100%;
+}
 
-img.small{
+img.small {
     max-height: 175px;
+}
+
+#topbar1{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
 }

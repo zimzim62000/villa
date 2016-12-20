@@ -48,8 +48,9 @@
 
 //vila
 
-$tertiary-color: #85C630;
+$tertiary-color: #01B0F0;//#85C630;
 $topbar-background : $tertiary-color;
+$titlebar-background: $tertiary-color;
 $blueciel: #0BFEDE;
 
 //---------------
@@ -601,7 +602,7 @@ $thumbnail-radius: $global-radius;
 // 35. Title Bar
 // -------------
 
-$titlebar-background: $black;
+//$titlebar-background: $primary-color;
 $titlebar-color: $white;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;

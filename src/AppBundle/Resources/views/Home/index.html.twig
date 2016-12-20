@@ -1,0 +1,72 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}
+    {{ 'app.index.titlemeta'|trans }}
+{% endblock %}
+
+{% block body %}
+
+    <div class="top-bar">
+        <div class="top-bar-title">
+    <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+      <button class="menu-icon dark" type="button" data-toggle></button>
+    </span>
+            <strong>{{ 'app.index.titlemeta'|trans }}</strong>
+        </div>
+        <div id="responsive-menu">
+            <div class="top-bar-right">
+                <ul class="menu">
+                    <li><button type="button" class="button">{{ 'app.index.topbar.login'|trans }}</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row full-width">
+        <div class="small-8 small-centered columns">
+            <h1 class="primary-color text-center padding-top">{{ 'app.index.h1'|trans }}</h1>
+        </div>
+    </div>
+    <div class="row full-width">
+        <div class="large-4 large-centered small-10 small-centered columns padding-top padding-bottom">
+            <p class="secondary-color">{{ 'app.index.p1'|trans|raw }}</p>
+        </div>
+    </div>
+
+    <div class="row full-width">
+        <div class="small-10 small-centered columns">
+            <h2 class="primary-color text-center padding-bottom">{{ 'app.index.h2'|trans }}</h2>
+        </div>
+    </div>
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/sable_palmier.jpg"></div>
+
+    <div class="row full-width">
+        <div class="small-10 small-centered columns">
+            <h2 class="primary-color text-center padding-top">{{ 'app.index.h3'|trans }}</h2>
+        </div>
+    </div>
+    <div class="row full-width">
+        <div class="large-4 large-centered small-10 small-centered columns padding-top padding-bottom">
+            <p class="secondary-color padding-top padding-bottom">{{ 'app.index.p2'|trans|raw }}</p>
+        </div>
+    </div>
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/palmito.jpg"></div>
+
+    <div class="row full-width">
+        <div class="small-10 small-centered columns">
+            <h2 class="primary-color text-center padding-top">{{ 'app.index.h4'|trans }}</h2>
+        </div>
+        <div class="small-5 small-centered columns">
+            {{ 'app.index.p3'|trans|raw }}
+        </div>
+    </div>
+
+    <div class="row full-width">
+        <div class="small-10 small-centered columns">
+            <h2 class="primary-color text-center padding-top">{{ 'app.index.h5'|trans }}</h2>
+        </div>
+    </div>
+
+{% endblock %}

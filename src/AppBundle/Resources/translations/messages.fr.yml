@@ -1,0 +1,28 @@
+app:
+    index:
+        topbar:
+            login: "Connexion"
+            reserved: "Réservé"
+        title: "La Villa Désirée"
+        titlemeta: "La Villa Désirée, location de maison de vacances avec piscine privée à Deshaies en GUADELOUPE"
+        h1: "Bienvenue à Villa Désirée, location de maison de vacances avec piscine privée à Deshaies en GUADELOUPE"
+        p1: >
+            <strong>Une villa créole de 3 chambres</strong> (+ 1 pour enfant) climatisées avec une cuisine équipée, deux salles de bains et une grande terrasse.<br /><strong>Un jardin tropical</strong> entoure la villa.
+            La villa possède sa piscine privée (au sel) et permet également d’accéder à la très jolie plage de bas-vent à moins de 5 minutes à pied (juste en descendant les petites rues de la résidence)
+        h2: "La villa Désirée, en Guadeloupe : une location de vacances en bord de mer (5 minutes à pied) avec sa piscine privée (7X3m, au sel)"
+        h3: "ENVIRONNEMENT - La Villa Désirée, location de maison dans un environnement préservé au nord de basse terre en GUADELOUPE"
+        p2: >
+            La ville de DESHAIES est une station touristique et balnéaire, tournée vers un tourisme responsable pour la protection de l’environnement et qui a gardée toute son
+            authenticité avec son bourg coloré et vivant, son ancienne église et son port de pêche. La commune dispose
+            de nombreuses plages de sable blanc toute plus belles les unes que les autres.
+        h4: "LA VILLA - La Villa Désirée, une villa tout confort, 3 chambres climatisées (+1 pour enfant, climatisée également) avec piscine et plage pour vos locations de vacances"
+        p3: >
+            <p class="secondary-color text-center"><strong>Villa Désirée : une maison de style traditionnel créole</strong></p>
+            <ul class=""><li class="secondary-color">3 chambres climatisées avec des lits en 160 cm</li>
+            <li class="secondary-color">1 chambre climatisée pour enfant (2 lits superposés en 90cm)</li>
+            <li class="secondary-color">2 salles de bain (lavabo et douches)</li>
+            <li class="secondary-color">1 cuisine ouverte</li>
+            <li class="secondary-color">1 grande terrasse ouverte sur le jardin et la piscine</li>
+            <li class="secondary-color">1 accès Wi FI</li>
+            </ul>
+        h5: "LES CHAMBRES - La Villa Désirée, 3 chambres climatisées avec lit double et 1 chambre pour enfant climatisée avec lit superposé"

@@ -1,6 +1,32 @@
 @import 'settings';
 @import 'foundation';
 
-
 @include foundation-everything;
 
+//paralax
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+
+
+.padding-top{
+    padding-top: 4rem;
+}
+
+.padding-bottom{
+    padding-bottom: 4rem;
+}
+
+.primary-color{
+    color: $primary-color;
+}
+.secondary-color{
+    color: $secondary-color;
+}
+.tertiary-color{
+    color: $tertiary-color;
+}
+.full-width{
+    max-width: 100%;
+}

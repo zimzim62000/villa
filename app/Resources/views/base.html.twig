@@ -2,7 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block meta %}{% endblock %}
+        <title>{% block title %}{% endblock %}</title>
         {% block stylesheets %}
             {% stylesheets '../app/Resources/public/css/*' filter='cssrewrite' %}
                 <link rel="stylesheet" href="{{ asset_url }}" />
@@ -12,6 +13,13 @@
     </head>
     <body>
         {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        {% block javascripts %}
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            {% javascripts '../app/Resources/public/js/parallax.min.js' %}
+                <script src="{{ asset_url }}"></script>
+            {% endjavascripts %}
+
+
+        {% endblock %}
     </body>
 </html>

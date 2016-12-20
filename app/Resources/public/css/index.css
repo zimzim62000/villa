@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Amiri|Crimson+Text");
 /**
  * Foundation for Sites by ZURB
  * Version 6.3.0
@@ -526,7 +527,7 @@ template {
 /* line 120, ../../../../node_modules/foundation-sites/scss/_global.scss */
 html {
   box-sizing: border-box;
-  font-size: 100%;
+  font-size: 120%;
 }
 
 /* line 126, ../../../../node_modules/foundation-sites/scss/_global.scss */
@@ -540,10 +541,10 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  background: #0BFEDE;
+  font-family: "Crimson Text", serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1;
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -607,7 +608,7 @@ button {
 
 /* line 28, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
 .row {
-  max-width: 75rem;
+  max-width: 62.5rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -627,21 +628,21 @@ button {
 }
 /* line 39, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
 .row .row {
-  margin-right: -0.625rem;
-  margin-left: -0.625rem;
+  margin-right: -0.52083rem;
+  margin-left: -0.52083rem;
 }
 @media print, screen and (min-width: 40em) {
   /* line 39, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
   .row .row {
-    margin-right: -0.9375rem;
-    margin-left: -0.9375rem;
+    margin-right: -0.78125rem;
+    margin-left: -0.78125rem;
   }
 }
 @media print, screen and (min-width: 64em) {
   /* line 39, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
   .row .row {
-    margin-right: -0.9375rem;
-    margin-left: -0.9375rem;
+    margin-right: -0.78125rem;
+    margin-left: -0.78125rem;
   }
 }
 /* line 42, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
@@ -660,27 +661,27 @@ button {
 }
 /* line 63, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
 .row.gutter-small > .column, .row.gutter-small > .columns {
-  padding-right: 0.625rem;
-  padding-left: 0.625rem;
+  padding-right: 0.52083rem;
+  padding-left: 0.52083rem;
 }
 /* line 63, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
 .row.gutter-medium > .column, .row.gutter-medium > .columns {
-  padding-right: 0.9375rem;
-  padding-left: 0.9375rem;
+  padding-right: 0.78125rem;
+  padding-left: 0.78125rem;
 }
 
 /* line 72, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
 .column, .columns {
   width: 100%;
   float: left;
-  padding-right: 0.625rem;
-  padding-left: 0.625rem;
+  padding-right: 0.52083rem;
+  padding-left: 0.52083rem;
 }
 @media print, screen and (min-width: 40em) {
   /* line 72, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
   .column, .columns {
-    padding-right: 0.9375rem;
-    padding-left: 0.9375rem;
+    padding-right: 0.78125rem;
+    padding-left: 0.78125rem;
   }
 }
 /* line 68, ../../../../node_modules/foundation-sites/scss/grid/_column.scss */
@@ -1120,8 +1121,8 @@ button {
 
 /* line 145, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
 .small-uncollapse > .column, .small-uncollapse > .columns {
-  padding-right: 0.625rem;
-  padding-left: 0.625rem;
+  padding-right: 0.52083rem;
+  padding-left: 0.52083rem;
 }
 
 /* line 149, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
@@ -1561,8 +1562,8 @@ button {
 
   /* line 145, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
   .medium-uncollapse > .column, .medium-uncollapse > .columns {
-    padding-right: 0.9375rem;
-    padding-left: 0.9375rem;
+    padding-right: 0.78125rem;
+    padding-left: 0.78125rem;
   }
 
   /* line 149, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
@@ -2002,8 +2003,8 @@ button {
 
   /* line 145, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
   .large-uncollapse > .column, .large-uncollapse > .columns {
-    padding-right: 0.9375rem;
-    padding-left: 0.9375rem;
+    padding-right: 0.78125rem;
+    padding-left: 0.78125rem;
   }
 
   /* line 149, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
@@ -2029,7 +2030,7 @@ button {
 }
 /* line 162, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
 .column-block {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.04167rem;
 }
 /* line 78, ../../../../node_modules/foundation-sites/scss/grid/_gutter.scss */
 .column-block > :last-child {
@@ -2038,7 +2039,7 @@ button {
 @media print, screen and (min-width: 40em) {
   /* line 162, ../../../../node_modules/foundation-sites/scss/grid/_classes.scss */
   .column-block {
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.5625rem;
   }
   /* line 78, ../../../../node_modules/foundation-sites/scss/grid/_gutter.scss */
   .column-block > :last-child {
@@ -2105,7 +2106,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Crimson Text", serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: inherit;
@@ -2124,14 +2125,6 @@ h6 small {
 
 /* line 332, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
 h1 {
-  font-size: 1.5rem;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
-/* line 332, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
-h2 {
   font-size: 1.25rem;
   line-height: 1.4;
   margin-top: 0;
@@ -2139,8 +2132,16 @@ h2 {
 }
 
 /* line 332, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
+h2 {
+  font-size: 1.04167rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* line 332, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
 h3 {
-  font-size: 1.1875rem;
+  font-size: 0.98958rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -2148,7 +2149,7 @@ h3 {
 
 /* line 332, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
 h4 {
-  font-size: 1.125rem;
+  font-size: 0.9375rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -2156,7 +2157,7 @@ h4 {
 
 /* line 332, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
 h5 {
-  font-size: 1.0625rem;
+  font-size: 0.88542rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -2164,7 +2165,7 @@ h5 {
 
 /* line 332, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
 h6 {
-  font-size: 1rem;
+  font-size: 0.83333rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -2173,32 +2174,32 @@ h6 {
 @media print, screen and (min-width: 40em) {
   /* line 332, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
   h1 {
-    font-size: 3rem;
-  }
-
-  /* line 332, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
-  h2 {
     font-size: 2.5rem;
   }
 
   /* line 332, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
+  h2 {
+    font-size: 2.08333rem;
+  }
+
+  /* line 332, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
   h3 {
-    font-size: 1.9375rem;
+    font-size: 1.61458rem;
   }
 
   /* line 332, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
   h4 {
-    font-size: 1.5625rem;
+    font-size: 1.30208rem;
   }
 
   /* line 332, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
   h5 {
-    font-size: 1.25rem;
+    font-size: 1.04167rem;
   }
 
   /* line 332, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
   h6 {
-    font-size: 1rem;
+    font-size: 0.83333rem;
   }
 }
 /* line 371, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
@@ -2220,9 +2221,9 @@ a img {
 /* line 392, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
 hr {
   clear: both;
-  max-width: 75rem;
+  max-width: 62.5rem;
   height: 0;
-  margin: 1.25rem auto;
+  margin: 1.04167rem auto;
   border-top: 0;
   border-right: 0;
   border-bottom: 1px solid #cacaca;
@@ -2273,7 +2274,7 @@ dl dt {
 /* line 449, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
 blockquote {
   margin: 0 0 1rem;
-  padding: 0.5625rem 1.25rem 0 1.1875rem;
+  padding: 0.46875rem 1.04167rem 0 0.98958rem;
   border-left: 1px solid #cacaca;
 }
 /* line 454, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
@@ -2285,7 +2286,7 @@ blockquote, blockquote p {
 /* line 461, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
 cite {
   display: block;
-  font-size: 0.8125rem;
+  font-size: 0.67708rem;
   color: #8a8a8a;
 }
 /* line 466, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
@@ -2307,10 +2308,10 @@ figure {
 
 /* line 484, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
 code {
-  padding: 0.125rem 0.3125rem 0.0625rem;
+  padding: 0.10417rem 0.26042rem 0.05208rem;
   border: 1px solid #cacaca;
   background-color: #e6e6e6;
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-family: "Amiri", serif, Consolas, "Liberation Mono", Courier, monospace;
   font-weight: normal;
   color: #0a0a0a;
 }
@@ -2318,9 +2319,9 @@ code {
 /* line 496, ../../../../node_modules/foundation-sites/scss/typography/_base.scss */
 kbd {
   margin: 0;
-  padding: 0.125rem 0.25rem 0;
+  padding: 0.10417rem 0.20833rem 0;
   background-color: #e6e6e6;
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-family: "Amiri", serif, Consolas, "Liberation Mono", Courier, monospace;
   color: #0a0a0a;
 }
 
@@ -2335,7 +2336,7 @@ kbd {
 
 /* line 58, ../../../../node_modules/foundation-sites/scss/typography/_helpers.scss */
 .lead {
-  font-size: 125%;
+  font-size: 150%;
   line-height: 1.6;
 }
 
@@ -2540,15 +2541,15 @@ textarea {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  height: 2.4375rem;
-  margin: 0 0 1rem;
-  padding: 0.5rem;
+  height: 2.03125rem;
+  margin: 0 0 0.83333rem;
+  padding: 0.41667rem;
   border: 1px solid #cacaca;
   border-radius: 0;
   background-color: #fefefe;
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 0.83333rem;
   font-weight: normal;
   color: #0a0a0a;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
@@ -2602,7 +2603,7 @@ input[type='search'] {
 [type='file'],
 [type='checkbox'],
 [type='radio'] {
-  margin: 0 0 1rem;
+  margin: 0 0 0.83333rem;
 }
 
 /* line 17, ../../../../node_modules/foundation-sites/scss/forms/_checkbox.scss */
@@ -2610,8 +2611,8 @@ input[type='search'] {
 [type='radio'] + label {
   display: inline-block;
   vertical-align: baseline;
-  margin-left: 0.5rem;
-  margin-right: 1rem;
+  margin-left: 0.41667rem;
+  margin-right: 0.83333rem;
   margin-bottom: 0;
 }
 /* line 26, ../../../../node_modules/foundation-sites/scss/forms/_checkbox.scss */
@@ -2623,7 +2624,7 @@ input[type='search'] {
 /* line 32, ../../../../node_modules/foundation-sites/scss/forms/_checkbox.scss */
 label > [type='checkbox'],
 label > [type='radio'] {
-  margin-right: 0.5rem;
+  margin-right: 0.41667rem;
 }
 
 /* line 38, ../../../../node_modules/foundation-sites/scss/forms/_checkbox.scss */
@@ -2635,21 +2636,21 @@ label > [type='radio'] {
 label {
   display: block;
   margin: 0;
-  font-size: 0.875rem;
+  font-size: 0.72917rem;
   font-weight: normal;
   line-height: 1.8;
   color: #0a0a0a;
 }
 /* line 46, ../../../../node_modules/foundation-sites/scss/forms/_label.scss */
 label.middle {
-  margin: 0 0 1rem;
-  padding: 0.5625rem 0;
+  margin: 0 0 0.83333rem;
+  padding: 0.46875rem 0;
 }
 
 /* line 22, ../../../../node_modules/foundation-sites/scss/forms/_help-text.scss */
 .help-text {
-  margin-top: -0.5rem;
-  font-size: 0.8125rem;
+  margin-top: -0.41667rem;
+  font-size: 0.67708rem;
   font-style: italic;
   color: #0a0a0a;
 }
@@ -2658,7 +2659,7 @@ label.middle {
 .input-group {
   display: table;
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 0.83333rem;
 }
 /* line 36, ../../../../node_modules/foundation-sites/scss/forms/_input-group.scss */
 .input-group > :first-child {
@@ -2703,7 +2704,7 @@ label.middle {
 /* line 88, ../../../../node_modules/foundation-sites/scss/forms/_input-group.scss */
 .input-group-field {
   border-radius: 0;
-  height: 2.5rem;
+  height: 2.08333rem;
 }
 
 /* line 102, ../../../../node_modules/foundation-sites/scss/forms/_input-group.scss */
@@ -2719,10 +2720,10 @@ label.middle {
 .input-group-button input,
 .input-group-button button,
 .input-group-button label {
-  height: 2.5rem;
+  height: 2.08333rem;
   padding-top: 0;
   padding-bottom: 0;
-  font-size: 1rem;
+  font-size: 0.83333rem;
 }
 
 /* line 131, ../../../../node_modules/foundation-sites/scss/forms/_input-group.scss */
@@ -2740,42 +2741,42 @@ fieldset {
 /* line 46, ../../../../node_modules/foundation-sites/scss/forms/_fieldset.scss */
 legend {
   max-width: 100%;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.41667rem;
 }
 
 /* line 51, ../../../../node_modules/foundation-sites/scss/forms/_fieldset.scss */
 .fieldset {
-  margin: 1.125rem 0;
-  padding: 1.25rem;
+  margin: 0.9375rem 0;
+  padding: 1.04167rem;
   border: 1px solid #cacaca;
 }
 /* line 30, ../../../../node_modules/foundation-sites/scss/forms/_fieldset.scss */
 .fieldset legend {
   margin: 0;
-  margin-left: -0.1875rem;
-  padding: 0 0.1875rem;
-  background: #fefefe;
+  margin-left: -0.15625rem;
+  padding: 0 0.15625rem;
+  background: #0BFEDE;
 }
 
 /* line 82, ../../../../node_modules/foundation-sites/scss/forms/_select.scss */
 select {
-  height: 2.4375rem;
-  margin: 0 0 1rem;
-  padding: 0.5rem;
+  height: 2.03125rem;
+  margin: 0 0 0.83333rem;
+  padding: 0.41667rem;
   appearance: none;
   border: 1px solid #cacaca;
   border-radius: 0;
   background-color: #fefefe;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 0.83333rem;
   line-height: normal;
   color: #0a0a0a;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>");
   background-origin: content-box;
-  background-position: right -1rem center;
+  background-position: right -0.83333rem center;
   background-repeat: no-repeat;
   background-size: 9px 6px;
-  padding-right: 1.5rem;
+  padding-right: 1.25rem;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
 }
 @media screen and (min-width: 0\0) {
@@ -2825,9 +2826,9 @@ select[multiple] {
 /* line 81, ../../../../node_modules/foundation-sites/scss/forms/_error.scss */
 .form-error {
   display: none;
-  margin-top: -0.5rem;
-  margin-bottom: 1rem;
-  font-size: 0.75rem;
+  margin-top: -0.41667rem;
+  margin-bottom: 0.83333rem;
+  font-size: 0.625rem;
   font-weight: bold;
   color: #cc4b37;
 }
@@ -3101,7 +3102,7 @@ select[multiple] {
   padding: 1.25rem 1rem;
   border: 1px solid #e6e6e6;
   border-bottom: 0;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
   line-height: 1;
   color: #01B0F0;
 }
@@ -3221,7 +3222,7 @@ select[multiple] {
 /* line 48, ../../../../node_modules/foundation-sites/scss/components/_breadcrumbs.scss */
 .breadcrumbs li {
   float: left;
-  font-size: 0.6875rem;
+  font-size: 0.57292rem;
   color: #0a0a0a;
   cursor: default;
   text-transform: uppercase;
@@ -3878,7 +3879,7 @@ select[multiple] {
   visibility: hidden;
   border: 1px solid #cacaca;
   border-radius: 0;
-  background-color: #fefefe;
+  background-color: #0BFEDE;
   font-size: 1rem;
 }
 /* line 57, ../../../../node_modules/foundation-sites/scss/components/_dropdown.scss */
@@ -4220,7 +4221,7 @@ select[multiple] {
 .responsive-embed, .flex-video {
   position: relative;
   height: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.83333rem;
   padding-bottom: 75%;
   overflow: hidden;
 }
@@ -4741,9 +4742,9 @@ select[multiple] {
 }
 /* line 83, ../../../../node_modules/foundation-sites/scss/components/_pagination.scss */
 .pagination li {
-  margin-right: 0.0625rem;
+  margin-right: 0.05208rem;
   border-radius: 0;
-  font-size: 0.875rem;
+  font-size: 0.72917rem;
   display: none;
 }
 /* line 94, ../../../../node_modules/foundation-sites/scss/components/_pagination.scss */
@@ -4760,7 +4761,7 @@ select[multiple] {
 .pagination a,
 .pagination button {
   display: block;
-  padding: 0.1875rem 0.625rem;
+  padding: 0.15625rem 0.52083rem;
   border-radius: 0;
   color: #0a0a0a;
 }
@@ -4771,14 +4772,14 @@ select[multiple] {
 }
 /* line 165, ../../../../node_modules/foundation-sites/scss/components/_pagination.scss */
 .pagination .current {
-  padding: 0.1875rem 0.625rem;
+  padding: 0.15625rem 0.52083rem;
   background: #01B0F0;
   color: #fefefe;
   cursor: default;
 }
 /* line 169, ../../../../node_modules/foundation-sites/scss/components/_pagination.scss */
 .pagination .disabled {
-  padding: 0.1875rem 0.625rem;
+  padding: 0.15625rem 0.52083rem;
   color: #cacaca;
   cursor: not-allowed;
 }
@@ -4788,7 +4789,7 @@ select[multiple] {
 }
 /* line 173, ../../../../node_modules/foundation-sites/scss/components/_pagination.scss */
 .pagination .ellipsis::after {
-  padding: 0.1875rem 0.625rem;
+  padding: 0.15625rem 0.52083rem;
   content: '\2026';
   color: #0a0a0a;
 }
@@ -5049,7 +5050,7 @@ html.is-reveal-open body {
   /* line 136, ../../../../node_modules/foundation-sites/scss/components/_reveal.scss */
   .reveal {
     width: 600px;
-    max-width: 75rem;
+    max-width: 62.5rem;
   }
 }
 @media print, screen and (min-width: 40em) {
@@ -5068,21 +5069,21 @@ html.is-reveal-open body {
   /* line 161, ../../../../node_modules/foundation-sites/scss/components/_reveal.scss */
   .reveal.tiny {
     width: 30%;
-    max-width: 75rem;
+    max-width: 62.5rem;
   }
 }
 @media print, screen and (min-width: 40em) {
   /* line 162, ../../../../node_modules/foundation-sites/scss/components/_reveal.scss */
   .reveal.small {
     width: 50%;
-    max-width: 75rem;
+    max-width: 62.5rem;
   }
 }
 @media print, screen and (min-width: 40em) {
   /* line 163, ../../../../node_modules/foundation-sites/scss/components/_reveal.scss */
   .reveal.large {
     width: 90%;
-    max-width: 75rem;
+    max-width: 62.5rem;
   }
 }
 /* line 166, ../../../../node_modules/foundation-sites/scss/components/_reveal.scss */
@@ -5124,7 +5125,7 @@ html.is-reveal-open body {
   position: relative;
   margin-bottom: 1rem;
   outline: 0;
-  font-size: 0.875rem;
+  font-size: 0.72917rem;
   font-weight: bold;
   color: #fefefe;
   user-select: none;
@@ -5215,7 +5216,7 @@ input:checked + label > .switch-inactive {
 .switch.tiny .switch-paddle {
   width: 3rem;
   height: 1.5rem;
-  font-size: 0.625rem;
+  font-size: 0.52083rem;
 }
 /* line 189, ../../../../node_modules/foundation-sites/scss/components/_switch.scss */
 .switch.tiny .switch-paddle::after {
@@ -5237,7 +5238,7 @@ input:checked + label > .switch-inactive {
 .switch.small .switch-paddle {
   width: 3.5rem;
   height: 1.75rem;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
 }
 /* line 189, ../../../../node_modules/foundation-sites/scss/components/_switch.scss */
 .switch.small .switch-paddle::after {
@@ -5259,7 +5260,7 @@ input:checked + label > .switch-inactive {
 .switch.large .switch-paddle {
   width: 5rem;
   height: 2.5rem;
-  font-size: 1rem;
+  font-size: 0.83333rem;
 }
 /* line 189, ../../../../node_modules/foundation-sites/scss/components/_switch.scss */
 .switch.large .switch-paddle::after {
@@ -5289,7 +5290,7 @@ tfoot {
 
 /* line 115, ../../../../node_modules/foundation-sites/scss/components/_table.scss */
 caption {
-  padding: 0.5rem 0.625rem 0.625rem;
+  padding: 0.41667rem 0.52083rem 0.52083rem;
   font-weight: bold;
 }
 
@@ -5315,7 +5316,7 @@ thead th,
 thead td,
 tfoot th,
 tfoot td {
-  padding: 0.5rem 0.625rem 0.625rem;
+  padding: 0.41667rem 0.52083rem 0.52083rem;
   font-weight: bold;
   text-align: left;
 }
@@ -5323,7 +5324,7 @@ tfoot td {
 /* line 151, ../../../../node_modules/foundation-sites/scss/components/_table.scss */
 tbody th,
 tbody td {
-  padding: 0.5rem 0.625rem 0.625rem;
+  padding: 0.41667rem 0.52083rem 0.52083rem;
 }
 
 /* line 83, ../../../../node_modules/foundation-sites/scss/components/_table.scss */
@@ -5451,7 +5452,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 .tabs-title > a {
   display: block;
   padding: 1.25rem 1.5rem;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
   line-height: 1;
   color: #01B0F0;
 }
@@ -5887,32 +5888,37 @@ a.thumbnail image {
   background: transparent;
 }
 
-/* line 12, ../scss/index.scss */
+/* line 13, ../scss/index.scss */
 .padding-top {
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
-/* line 16, ../scss/index.scss */
+/* line 17, ../scss/index.scss */
 .padding-bottom {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
-/* line 20, ../scss/index.scss */
+/* line 21, ../scss/index.scss */
 .primary-color {
   color: #01B0F0;
 }
 
-/* line 23, ../scss/index.scss */
+/* line 24, ../scss/index.scss */
 .secondary-color {
   color: #FF73BF;
 }
 
-/* line 26, ../scss/index.scss */
+/* line 27, ../scss/index.scss */
 .tertiary-color {
   color: #85C630;
 }
 
-/* line 29, ../scss/index.scss */
+/* line 30, ../scss/index.scss */
 .full-width {
   max-width: 100%;
+}
+
+/* line 34, ../scss/index.scss */
+img.small {
+  max-height: 175px;
 }

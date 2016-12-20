@@ -5888,48 +5888,53 @@ a.thumbnail image {
   background: transparent;
 }
 
-/* line 13, ../scss/index.scss */
+/* line 12, ../scss/index.scss */
+.title-bar {
+  background: rgba(1, 176, 240, 0.4);
+}
+
+/* line 16, ../scss/index.scss */
 .padding-top {
   padding-top: 2rem;
 }
 
-/* line 17, ../scss/index.scss */
+/* line 20, ../scss/index.scss */
 .padding-bottom {
   padding-bottom: 2rem;
 }
 
-/* line 21, ../scss/index.scss */
+/* line 24, ../scss/index.scss */
 .primary-color {
   color: #01B0F0;
 }
 
-/* line 24, ../scss/index.scss */
+/* line 27, ../scss/index.scss */
 .secondary-color {
   color: #FF73BF;
 }
 
-/* line 27, ../scss/index.scss */
+/* line 30, ../scss/index.scss */
 .tertiary-color {
   color: #01B0F0;
 }
 
-/* line 30, ../scss/index.scss */
+/* line 33, ../scss/index.scss */
 .full-width {
   max-width: 100%;
 }
 
-/* line 33, ../scss/index.scss */
+/* line 36, ../scss/index.scss */
 .fullfull-width {
   max-width: 100%;
   width: 100%;
 }
 
-/* line 38, ../scss/index.scss */
+/* line 41, ../scss/index.scss */
 img.small {
   max-height: 175px;
 }
 
-/* line 42, ../scss/index.scss */
+/* line 45, ../scss/index.scss */
 #topbar1 {
   position: absolute;
   top: 0;

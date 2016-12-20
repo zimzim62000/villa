@@ -10,13 +10,13 @@ app:
             <strong>Une villa créole de 3 chambres</strong> (+ 1 pour enfant) climatisées avec une cuisine équipée, deux salles de bains et une grande terrasse.<br /><strong>Un jardin tropical</strong> entoure la villa.
             La villa possède sa piscine privée (au sel) et permet également d’accéder à la très jolie plage de bas-vent à moins de 5 minutes à pied (juste en descendant les petites rues de la résidence)
         h2: "La villa Désirée, en Guadeloupe : une location de vacances en bord de mer (5 minutes à pied) avec sa piscine privée (7X3m, au sel)"
-        h3: "ENVIRONNEMENT - La Villa Désirée, location de maison dans un environnement préservé au nord de basse terre en GUADELOUPE"
-        p2: >
+        environement: "ENVIRONNEMENT - La Villa Désirée, location de maison dans un environnement préservé au nord de basse terre en GUADELOUPE"
+        environementp: >
             La ville de DESHAIES est une station touristique et balnéaire, tournée vers un tourisme responsable pour la protection de l’environnement et qui a gardée toute son
             authenticité avec son bourg coloré et vivant, son ancienne église et son port de pêche. La commune dispose
             de nombreuses plages de sable blanc toute plus belles les unes que les autres.
-        h4: "LA VILLA - La Villa Désirée, une villa tout confort, 3 chambres climatisées (+1 pour enfant, climatisée également) avec piscine et plage pour vos locations de vacances"
-        p3: >
+        lavilla: "LA VILLA - La Villa Désirée, une villa tout confort, 3 chambres climatisées (+1 pour enfant, climatisée également) avec piscine et plage pour vos locations de vacances"
+        chambrep: >
             <p class="secondary-color text-center"><strong>Villa Désirée : une maison de style traditionnel créole</strong></p>
             <ul class=""><li class="secondary-color">3 chambres climatisées avec des lits en 160 cm</li>
             <li class="secondary-color">1 chambre climatisée pour enfant (2 lits superposés en 90cm)</li>
@@ -25,4 +25,26 @@ app:
             <li class="secondary-color">1 grande terrasse ouverte sur le jardin et la piscine</li>
             <li class="secondary-color">1 accès Wi FI</li>
             </ul>
-        h5: "LES CHAMBRES - La Villa Désirée, 3 chambres climatisées avec lit double et 1 chambre pour enfant climatisée avec lit superposé"
+        chambre: "LES CHAMBRES - La Villa Désirée, 3 chambres climatisées avec lit double et 1 chambre pour enfant climatisée avec lit superposé"
+        cuisine: "LA CUISINE - La Villa Désirée, une location de vacances pour cuisiner ou pour profiter"
+        cuisinep: >
+            <p class="secondary-color">Une <strong>cuisine ouverte avec un accès direct sur la terrasse</strong>(cuisine entièrement équipée : lave-vaisselle, frigo-congélateur, plaque de cuisson, micro-ondes…)
+            et <strong>tout le matériel nécessair</strong>e pour préparer et consommer vos repas (cafetière, grille-pain, bouilloire, mixeur, divers ustensiles …)</p>
+        terrasse: "LA TERRASSE - La Villa Désirée, une location de vacances pour se détendre"
+        terrassep: >
+            Une terrasse couverte de plus de 22 m2 pour prendre vos repas (grande table en bois)
+            Un barbecue à gaz vous attend pour griller vos poissons ou langoustes !
+            Une terrasse détente avec un coin salon (canapé) et hamac
+        piscine: "LA PISCINE - Villa Désirée, une maison de vacances avec sa piscine privative"
+        piscinep: >
+            Une piscine (7m x 3m) au sel (aucun produit chimique, ne pique pas les yeux, pas d’allergie).
+        jardinplage: "Le jardin et la plage , un cadre idilique pour des vacances unique..."
+        jardin: "LE JARDIN TROPICAL - Villa Désirée, une location de vacances dans un jardin caraïbe : Palmiers, arbres du voyageur, bougainvilliers, mais aussi bananier, manguier et carambolier"
+        jardinp: >
+            La villa est entourée de végétation tropicale, en particulier plusieurs arbres fruitiers (corossolier, manguier, bananier,…), n’hésitez pas à les gouter !
+        plage: "LA PLAGE - La Villa Désirée, location de vacances avec une plage paradisiaque à 5 minutes à pied sans aucune route à traverser…"
+        plagep: >
+            A partir de la villa, vous avez à moins de 5 minutes à pied, la jolie plage de Fort Royal (aussi appelée la plage de l’Anse du petit bas vent).
+            C’est une plage de sable fin et clair avec une mer peu agitée et quelques cocotiers. C’est une plage ouverte à tous avec accès par le parking de l'hôtel Fort Royal.
+
+

@@ -11,11 +11,11 @@
 
 
 .padding-top{
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
 .padding-bottom{
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 .primary-color{
@@ -29,4 +29,8 @@
 }
 .full-width{
     max-width: 100%;
+}
+
+img.small{
+    max-height: 175px;
 }

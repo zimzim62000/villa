@@ -6,38 +6,13 @@
 
 {% block body %}
 
-
-    <div data-sticky-container class="fullfull-width">
-        <div class="title-bar sticky" id="topbar" data-sticky data-options="marginTop:0;" style="width:100%; padding:0!important;" >
-            <div class="top-bar-title">
-                <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
-                    {% image '@AppBundle/Resources/public/images/villadesiree.png' %}
-                        <img src="{{ asset_url }}" style="height:50px;" alt="villa désirée - votre location de villa en guadeloupe" />
-                    {% endimage %}</span>
-                <strong>{{ 'app.index.title'|trans }}</strong>
-            </div>
-            <div id="responsive-menu">
-                <div class="top-bar-right">
-                    <ul class="menu">
-                        <li><a type="button" href="#lamaison" class="secondary-color">{{ 'app.index.topbar.lamaison'|trans }}</a></li>
-                        <li><a type="button" href="#jardin" class="secondary-color">{{ 'app.index.topbar.lejardin'|trans }}</a></li>
-                        <li><a type="button" href="#environement" class="secondary-color">{{ 'app.index.topbar.lenvironement'|trans }}</a></li>
-                        <li><a type="button" href="#activity" class="secondary-color">{{ 'app.index.topbar.activity'|trans }}</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
     <div class="row full-width">
         <div class="small-8 small-centered columns">
             <h1 class="tertiary-color text-center padding-top">{{ 'app.index.h1'|trans }}</h1>
         </div>
     </div>
     <div class="row full-width">
-        <div class="large-4 large-centered small-10 small-centered columns padding-top padding-bottom">
+        <div class="small-8 large-centered small-10 small-centered columns padding-top padding-bottom">
             <p class="secondary-color">
                 {{ 'app.index.p1'|trans|raw }}
             </p>
@@ -54,7 +29,7 @@
 
     <div class="row full-width">
         <div class="small-10 small-centered columns">
-            <h2 class="tertiary-color text-center padding-top" id="lamaison">{{ 'app.index.lavilla'|trans }}</h2>
+            <h2 class="tertiary-color text-center padding-top" id="house">{{ 'app.index.lavilla'|trans }}</h2>
         </div>
         <div class="small-10 small-centered columns">
             <p class="secondary-color">
@@ -170,13 +145,8 @@
         </div>
     </div>
 
-    <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/sable_palmier.jpg"></div>
 
-    <div class="row full-width" id="jardin">
-        <div class="small-10 small-centered columns">
-            <h2 class="tertiary-color text-center padding-top">{{ 'app.index.jardinplage'|trans }}</h2>
-        </div>
-    </div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/sable_palmier.jpg"></div>
 
     <div class="row full-width">
         <div class="small-10 small-centered columns">
@@ -184,15 +154,22 @@
         </div>
     </div>
     <div class="row full-width">
-        <div class="large-4 columns padding-bottom">
-            &nbsp;
+        <div class="small-10 small-centered columns padding-bottom">
+            <p class="secondary-color padding-top padding-bottom">
+                {{ 'app.index.jardinp'|trans|raw }}
+            </p>
         </div>
-        <div class="large-4 small-8 columns padding-bottom">
-            <p class="secondary-color padding-top padding-bottom">{{ 'app.index.jardinp'|trans|raw }}</p>
-        </div>
-        <div class="large-4 small-4 columns padding-bottom">
+    </div>
+
+    <div class="row full-width text-center">
+        <div class="small-6 columns padding-bottom">
             {% image '@AppBundle/Resources/public/images/banane_maison.jpg' %}
-            <img class="small" src="{{ asset_url }}" alt="Example" />
+            <img class="medium" src="{{ asset_url }}" alt="Example" />
+            {% endimage %}
+        </div>
+        <div class="small-6 columns padding-bottom">
+            {% image '@AppBundle/Resources/public/images/banane_maison.jpg' %}
+            <img class="medium" src="{{ asset_url }}" alt="Example" />
             {% endimage %}
         </div>
     </div>
@@ -203,14 +180,14 @@
         </div>
     </div>
     <div class="row full-width">
-        <div class="large-10 large-centered small-10 small-centered columns padding-bottom">
+        <div class="small-10 small-centered columns padding-bottom">
             <p class="secondary-color padding-top padding-bottom">{{ 'app.index.plagep'|trans|raw }}</p>
         </div>
     </div>
 
     <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/villa_piscine.jpg"></div>
 
-    <div class="row full-width" id="environement">
+    <div class="row full-width" id="guada">
         <div class="small-10 small-centered columns">
             <h2 class="tertiary-color text-center padding-top">{{ 'app.index.environement'|trans }}</h2>
         </div>
@@ -221,22 +198,17 @@
         </div>
     </div>
 
-    <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/sable_palmier.jpg"></div>
-
-    <div class="row full-width">
-        <div class="small-10 small-centered columns">
-            <h2 class="tertiary-color text-center padding-top">{{ 'app.index.guada'|trans }}</h2>
-        </div>
-    </div>
-
     <div class="row full-width">
         <div class="small-10 small-centered columns">
             <h3 class="primary-color text-center padding-top">{{ 'app.index.guadaclimat'|trans }}</h3>
         </div>
-        <div class="large-8 large-centered small-12 columns padding-bottom">
+        <div class="small-10 small-centered columns padding-bottom">
             <p class="secondary-color padding-top padding-bottom">{{ 'app.index.guadaclimatp'|trans|raw }}</p>
         </div>
     </div>
+
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/sable_palmier.jpg"></div>
 
     <div class="row full-width" id="activity">
         <div class="small-10 small-centered columns">
@@ -249,21 +221,22 @@
 
     <div class="row full-width">
         <div class="small-10 small-centered columns">
-            <h3 class="primary-color text-center padding-top">{{ 'app.index.activity'|trans }}</h3>
+            <h3 class="primary-color text-center padding-top">{{ 'app.index.decouverte'|trans }}</h3>
         </div>
-        <div class="large-8 large-centered small-12 columns padding-bottom">
-            <p class="secondary-color padding-top padding-bottom">{{ 'app.index.activityp'|trans|raw }}</p>
+        <div class="small-10 small-centered columns padding-bottom">
+            <p class="secondary-color padding-top padding-bottom">{{ 'app.index.decouvertep'|trans|raw }}</p>
         </div>
     </div>
 
     <div class="row full-width">
-        <div class="small-10 small-centered columns">
-            <h3 class="primary-color text-center padding-top">{{ 'app.index.activity'|trans }}</h3>
+        <div class="small-6 columns">
+            <h4 class="primary-color text-center padding-top">{{ 'app.index.pointe'|trans }}</h4>
+            <p class="secondary-color padding-top padding-bottom">{{ 'app.index.pointep'|trans|raw }}</p>
         </div>
-        <div class="large-8 large-centered small-12 columns padding-bottom">
-            <p class="secondary-color padding-top padding-bottom">{{ 'app.index.activityp'|trans|raw }}</p>
+        <div class="small-6 columns">
+            <h4 class="primary-color text-center padding-top">{{ 'app.index.grandterre'|trans }}</h4>
+            <p class="secondary-color padding-top padding-bottom">{{ 'app.index.grandterrep'|trans|raw }}</p>
         </div>
     </div>
-
 
 {% endblock %}

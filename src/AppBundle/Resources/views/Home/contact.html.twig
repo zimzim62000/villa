@@ -1,0 +1,46 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}
+    {{ 'app.contact.titlemeta'|trans }}
+{% endblock %}
+
+{% block body %}
+
+    <h2 class="tertiary-color text-center">{{ "app.contact.h2"|trans }}</h2>
+    <p class="secondary-color text-center">{{ "app.contact.p"|trans }}</p>
+
+    <div class="row full-width">
+        <div class="medium-8 columns form-panel" style="min-height:400px">
+            <div class="row full-width">
+                {{ form_start(form) }}
+                <div class="medium-6 columns">
+                    <label>
+                        {{ 'entity.contact.name'|trans }}
+                        {{ form(form.name) }}
+                    </label>
+                </div>
+                <div class="small-6 columns">
+                    <label>
+                        {{ 'entity.contact.email'|trans }}
+                        {{ form(form.email) }}
+                    </label>
+                </div>
+                <div class="small-8 small-centered columns">
+                    <label>
+                        {{ 'entity.contact.message'|trans }}
+                        {{ form(form.message) }}
+                    </label>
+                </div>
+                <div class="small-8 small-centered columns text-center">
+                    {{ form_rest(form) }}
+                </div>
+            </div>
+        </div>
+        <div class="medium-4 columns form-panel" style="min-height:400px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.304585607075!2d-61.793075314830126!3d16.307374024217573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c136b8852742823%3A0x3c0b7410111552fc!2sR%C3%A9sidence+Simona!5e0!3m2!1sfr!2sfr!4v1482502970895"
+                    width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+{% endblock body %}

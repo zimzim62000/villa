@@ -5893,52 +5893,90 @@ a.thumbnail image {
   background: rgba(1, 176, 240, 0.4);
 }
 
-/* line 16, ../scss/index.scss */
+/* line 15, ../scss/index.scss */
+.title-bar a {
+  color: #FFFFFF;
+}
+
+/* line 18, ../scss/index.scss */
+.title-bar a:hover {
+  color: #01B0F0;
+}
+
+/* line 22, ../scss/index.scss */
 .padding-top {
   padding-top: 2rem;
 }
 
-/* line 20, ../scss/index.scss */
+/* line 26, ../scss/index.scss */
 .padding-bottom {
   padding-bottom: 2rem;
 }
 
-/* line 24, ../scss/index.scss */
+/* line 30, ../scss/index.scss */
 .primary-color {
   color: #01B0F0;
 }
 
-/* line 27, ../scss/index.scss */
+/* line 33, ../scss/index.scss */
 .secondary-color {
   color: #FF73BF;
 }
 
-/* line 30, ../scss/index.scss */
+/* line 36, ../scss/index.scss */
 .tertiary-color {
   color: #01B0F0;
 }
 
-/* line 33, ../scss/index.scss */
+/* line 39, ../scss/index.scss */
 .full-width {
   max-width: 100%;
 }
 
-/* line 36, ../scss/index.scss */
+/* line 42, ../scss/index.scss */
 .fullfull-width {
   max-width: 100%;
   width: 100%;
 }
 
-/* line 41, ../scss/index.scss */
+/* line 47, ../scss/index.scss */
 img.small {
   max-height: 175px;
 }
 
-/* line 45, ../scss/index.scss */
+/* line 51, ../scss/index.scss */
+img.medium {
+  max-height: 250px;
+}
+
+/* line 55, ../scss/index.scss */
+img.large {
+  max-height: 350px;
+}
+
+/* line 59, ../scss/index.scss */
 #topbar1 {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 50px;
+}
+
+/* line 67, ../scss/index.scss */
+.form-panel {
+  background: #a1e5dd;
+  border: 1px solid #d9f5f1;
+  padding: 2rem;
+}
+
+/* line 73, ../scss/index.scss */
+textarea.medium {
+  min-height: 100px;
+}
+
+/* line 77, ../scss/index.scss */
+footer.footer {
+  min-height: 150px;
+  background: #0BFEDE;
 }

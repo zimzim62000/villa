@@ -31,6 +31,8 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
+        {% include "::header.html.twig" %}
+
         {% block body %}{% endblock %}
         {% block javascripts %}
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -45,5 +47,9 @@
             </script>
 
         {% endblock %}
+
+
+    {% include "::footer.html.twig" %}
+
     </body>
 </html>

@@ -3,9 +3,9 @@ app:
         topbar:
             login: "Connexion"
             lamaison: "La maison"
-            lejardin: "Le jardin et la plage"
-            lenvironement: "L'environement"
-            activity: "Les activités"
+            guada: "La Guadeloupe"
+            tarifs: "Tarifs/Réservations"
+            contact: "Nous contacter"
         title: "La Villa Désirée"
         titlemeta: "La Villa Désirée, location de maison de vacances avec piscine privée à Deshaies en GUADELOUPE"
         h1: "Bienvenue à Villa Désirée, location de maison de vacances avec piscine privée à Deshaies en GUADELOUPE"
@@ -18,11 +18,6 @@ app:
             La Villa Désirée, une villa familiale complétement équipée pour 8 personnes.<br />
             Venez y passer vos vacances en famille ou entre amis<br />
         h2: "La Villa Désirée, en Guadeloupe : une location de vacances en bord de mer avec sa piscine privée pour vos vacances en famille"
-        environement: "ENVIRONNEMENT - La Villa Désirée, location de maison dans un environnement préservé au nord de basse terre en GUADELOUPE"
-        environementp: >
-            La ville de DESHAIES est une station touristique et balnéaire, tournée vers un tourisme responsable pour la protection de l’environnement et qui a gardée toute son
-            authenticité avec son bourg coloré et vivant, son ancienne église et son port de pêche. La commune dispose
-            de nombreuses plages de sable blanc toute plus belles les unes que les autres.
         lavilla: "La Villa Désirée, une villa tout confort, 4 chambres climatisées avec piscine et plage pour vos locations de vacances"
         lavillap: >
             La Villa Désirée : une maison de style traditionnel créole<br />
@@ -55,38 +50,96 @@ app:
             C’est souvent l’endroit le plus fréquenté de la villa !<br />
             On y discute, on y mange, on profite du jardin, on surveille les enfants dans la piscine. La terrasse de la Villa Désirée est réellement l’endroit magique de la maison.<br />
             La terrasse est équipée d’un barbecue à gaz qui vous attend pour griller vos poissons ou langoustes ! Un régal à la tombée du jour…<br />
-        piscine: "LA PISCINE - Villa Désirée, une maison de vacances avec sa piscine privative"
+        piscine: "LA PISCINE - La Villa Désirée, une maison de vacances avec sa piscine privative"
         piscinep: >
-            Une piscine (7m x 3m) au sel (aucun produit chimique, ne pique pas les yeux, pas d’allergie).
-        jardinplage: "Le jardin et la plage , un cadre idilique pour des vacances unique..."
-        jardin: "LE JARDIN TROPICAL - Villa Désirée, une location de vacances dans un jardin caraïbe : Palmiers, arbres du voyageur, bougainvilliers, mais aussi bananier, manguier et carambolier"
+            A la villa Désirée vous avez une piscine rien que pour vous !<br />
+            Pas d’autres vacanciers qui peuvent l’utiliser, pas de piscine en commun avec d’autres villas ou bungalows, vous profitez en toute tranquillité de votre piscine !<br />
+            La piscine de 7m sur 3m est une piscine qui fonctionne sur le principe de l’électrolyse au sel.<br />
+            L’eau de la piscine est donc très légèrement salée (7 fois moins que l’eau de mer !) et le système détruit efficacement les bactéries, les algues, les germes…tout cela sans produit chimique.<br />
+            A la Villa Désirée, vous profitez des joies de la piscine sans aucun traitement chimique, aucune odeur de chlore, aucune irritation de la peau, des yeux…autant de bénéfice pour la santé et la peau fragile des enfants.<br />
+            Vous pouvez donc sauter, jouer et nager en toute tranquillité.<br />
+            Et avantage pour notre planète, c’est un traitement beaucoup plus écologique.<br />
+        jardin: "LE JARDIN TROPICAL – La Villa Désirée, une location de vacances dans un jardin caraïbe"
         jardinp: >
-            La villa est entourée de végétation tropicale, en particulier plusieurs arbres fruitiers (corossolier, manguier, bananier,…), n’hésitez pas à les gouter !
-        plage: "LA PLAGE - La Villa Désirée, location de vacances avec une plage paradisiaque à 5 minutes à pied sans aucune route à traverser…"
+            La Villa Désirée est blottie au cœur d’un joli jardin caraïbe. Le jardin qui entoure la villa abrite plusieurs essences typiquement caribéennes.<br />
+            Dès l’entrée, de majestueux palmiers Bismarck vous enchanteront de leurs teintes bleutées. Près de la piscine, le grand arbre du voyageur étend ses branches en éventail. <br />
+            La végétation prend place tout autour de la maison et les fleurs tropicales offrent leurs couleurs… Les bougainvilliers rouges et blancs vous enchanterons…<br />
+            Et dans le jardin tropical, la cueillette est de mise. En fonction de la saison et de votre date de location de vacances, vous trouverez les bananes, corossols et mangues prêtes à déguster.
+            Un citronnier et des maracujas devraient bientôt prendre place également…<br />
+            Et dans le jardin tropical, la cueillette est de mise. En fonction de la saison et de votre date de location de vacances, vous trouverez les bananes, corossols et mangues prêtes à déguster.<br />
+            Un citronnier et des maracujas devraient bientôt prendre place également…<br />
+        plage: "LA PLAGE - La Villa Désirée, location de vacances en bord de plage."
         plagep: >
-            A partir de la villa, vous avez à moins de 5 minutes à pied, la jolie plage de Fort Royal (aussi appelée la plage de l’Anse du petit bas vent).
-            C’est une plage de sable fin et clair avec une mer peu agitée et quelques cocotiers. C’est une plage ouverte à tous avec accès par le parking de l'hôtel Fort Royal.
-        guada: "La Guadeloupe - un paradis sur terre"
-        guadaclimat: "Le climat et l’environnement"
+            A partir de la villa, vous avez, à moins de 5 minutes à pied, la jolie plage de Fort Royal (aussi appelée la plage de l’Anse du petit bas vent).<br />
+            C’est une plage de sable fin et clair avec une mer peu agitée. La plage  est bordée de cocotiers et descend en pente douce dans une eau turquoise à 28°C.<br />
+            Pour accéder à la plage, aucune route à traverser, vous longer les petites rues de la résidence, pouvez saluer les voisins et marcher tranquillement pour arrivez à une plage paradisiaque…<br />
+            C’est une plage publique, ouverte à tous avec accès par le parking de l'hôtel Fort Royal (ancien hôtel du club Med, qui a toujours su choisir ces emplacements !)<br />
+            A moins de 300m à pied, vous pouvez donc profitez d’une place de sable blanc, d’une mer calme et de la beauté du paysage.<br />
+            Envie de vous rafraichir, vous pouvez profiter des commodités de l’hôtel, un bar de plage très sympa qui propose de délicieux Smoothies, de petites tables en bois et les chaises caribéennes typiques vous permettent de profiter de la vue magnifique en bleu et blanc.<br />
+            Enfin, si vous avez envie d’une petite balade, un petit chemin côtier vous amène à  la jolie plage de la Perle et plus loin de Grande Anse<br />
+        environement: "La Guadeloupe, le paradis des caraïbes. La Villa Désirée, location de maison de vacances à DESHAIES, GUADELOUPE."
+        environementp: >
+             Deshaies est l’une des plus belles communes de Guadeloupe. Elle s’étend sur 14 km où alternent plages et criques dominées par les montagnes.<br />
+             La ville de DESHAIES est une station touristique et balnéaire, tournée vers un tourisme responsable avec pour objectif la protection de l’environnement.<br />
+             C’est une ville guadeloupéenne qui a gardée toute son authenticité avec son bourg coloré et vivant, son ancienne église et son port de pêche. La commune dispose de nombreuses plages de sable blanc toute plus belles les unes que les autres.<br />
+             De nombreux petits restaurants, les lolos, vous feront découvrir la cuisine locale, riche de parfums et de saveurs : épices, lait de coco…<br />
+             Pour vos courses, de nombreux petits commerçants vendent leur production ou leur pêche, ne manquez pas le retour des pêcheurs sur la plage du centre-ville et le marché ou vous trouverez tous les fruits et légumes de l’archipel.<br />
+        guadaclimat: "La Guadeloupe - un paradis sur terre. Climat et environnement"
         guadaclimatp: >
             Le Nord Basse Terre, est une zone bien ventilée, étant située en bordure de l’océan.<br />
             Les pluies sont plus fréquentes que sur la Grande Terre, mais moindres que sur le massif montagneux de la Soufrière toute proche.<br />
             En journée, la température est comprise entre 27° et 32°, avec une légère baisse pendant la nuit. Celle de la mer varie de 25 à 28°.<br />
-            Au Nord Basse Terre, les activités traditionnelles sont maintenues : pêche (thon, thazard, marlin, dorade, coryphène, vivaneau, langoustes…), agriculture (canne à sucre), complétées désormais par le tourisme. La nature environnante est protégée ou surveillée par le « Parc National de Guadeloupe ». Il est possible de voir des espèces rares ou protégées : iguanes, tortues (zone de pontes), frégates, et peut être lamantin.
-        activity: "Les plages, les visites à proximité"
+            La Basse-Terre est une des ailes qui forment le papillon de la Guadeloupe.<br />
+            La Basse-Terre est un massif montagneux couvert par une magnifique forêt tropicale de 17 000 ha (classée Parc National depuis 1989).<br />
+            A travers celle-ci, de très nombreux itinéraires de randonnées balisés raviront les randonneurs et les visiteurs.<br />
+            Ce qui frappe sur Basse-Terre, c’est la végétation luxuriante (plus de 3000 espèces d’arbres) qui abrite une faune exotique et merveilleuse. On y trouve de nombreuses chutes (dont les chutes du Carbet), de magnifiques cascades, des bassins paradisiaques… vous tomberez forcement sous le charme naturel de Basse-terre !<br />
+            Cette zone est aussi bordée de plages magnifiques où toutes les couleurs de sables se côtoient : blanc, beige, brun, noir et même rose. Et Basse-terre abrite une fabuleuse réserve sous-marine mondialement connue : la Réserve du Commandant COUSTEAU (avec son buste immergé).<br />
+            Pour les curieux, La Basse-Terre abrite de nombreux témoignages de la diversité culturelle de l’île : des églises catholiques, des temples hindous. <br />
+            Pour les férus d’histoire, des vestiges archéologiques des premiers habitants et un fort militaire du XVIIème siècle. <br />
+            Arrêter vous à Basse-terre, ville chef-lieu du département, qui est un véritable livre d’histoire...<br />
+            Au Nord Basse Terre, les activités traditionnelles sont maintenues : la pêche (thon, thazard, marlin, dorade, coryphène, vivaneau, langoustes…) et l’agriculture (canne à sucre) sont les activités principales.<br />
+            La nature environnante est protégée par le « Parc National de Guadeloupe » et il est possible de voir des espèces rares ou protégées : iguanes, tortues (zone de pontes), frégates, et peut être même le lamantin.<br />
+        activity: "Les visites à proximité de la Villa Désirée"
         activityp: >
-            A proximité, vous aurez la possibilité d’occuper vos journées ou 1/2 journées par les activités suivantes
-            le farniente et la baignade sur de belles plages : Cluny, Amandiers, Tillet, La Perle, Grande Anse, Leroux…<br />
-            la plongée sous-marine : clubs à Deshaies et Sainte Rose<br />
-            Mais on peut également explorer en masque et tuba (beaucoup de jolis poissons et tortues).
-            une sortie en mer (pêche ou découverte de cachalots, baleines, dauphins…)
-            l’équitation (club des deux îlets tout proche)
-            les visites de rhumeries : Reymonenq (et son musée) et Severin (avec sa roue à aubes).
-        decouverte:
+            A proximité, vous aurez la possibilité d’occuper vos journées ou ½ journées par de nombreuses activités.<br />
+            Le farniente et la baignade sur de belles plages : Cluny, Amandiers, Tillet, La Perle, Grande Anse, Leroux…<br />
+            Essayer de passer un dimanche sur ces plages, les familles guadeloupéennes se retrouvent souvent pour des repas gais, joyeux et animés. Une ambiance chaleureuse, agréable et favorable aux échanges qui vous permettrons de ressentir toute la gentillesse des antillais.<br />
+            la plongée sous-marine : il y a de nombreux clubs à Deshaies et Sainte Rose, ils vous proposeront un éventail de sortie en mer, de baptême de plongé mais aussi d’exploration en masque et tuba (beaucoup de jolis poissons et tortues).<br />
+            Vous aurez peut-être la chance de croiser des tortues, la plage de Malendure à Bouillante est réputée pour ces rencontres inoubliables.<br />
+            C’est sur cette plage que ce trouvent les ilets Cousteau, avec la possibilité de louer kayac, bateau et autres embarcations pour y découvrir la faune aquatique arc en ciel et merveilleuse.<br />
+            le jardin botanique à Deshaies (qui est l’ancienne propriété de Coluche).<br />
+            C’est un parc de 7 hectares qui offre une balade merveilleuse et paisible à travers la surprenante flore des Antilles ! Vous y découvrirez les bougainvilliers, les hibiscus, les orchidées et bien d’autres fleurs<br />
+            Le jardin permet la découverte d’oiseaux magnifiques : les loriquets très colorés, les flamants roses, les colibris, le ara bleu …tant d’espèce à observer et découvrir.<br />
+            La route de la traversée, la cascade aux écrevisses et la découverte de la forêt tropicale <br />
+            Il faut emprunter la route de la traversée, se sentir happer par la végétation tropicale et arriver de bonne heure à la Cascade aux écrevisses. Vous pouvez vous y baigner mais l’eau est bien froide ! A proximité on trouve la Maison de la foret et son sentier de la découverte qui commence par un joli pont de bois suspendu<br />
+            Les chutes du carbet <br />
+            Les 3 chutes sont impressionnantes, la plus facile d’accès (la deuxième) est haute de 110m et fait l’émerveillement des visiteurs.<br />
+            C’est un des sites les plus visités de l'île avec environ 400 000 visiteurs par an.<br />
+        decouverte: "La découverte de la Cote sous le vent :"
         decouvertep: >
+            En partant de l’autre côté (vers Bouillante), la côte sous-le-vent, avec ses habitations consacrées au café, au cacao, à la vanille… (la Grivelière, musée du café, maison du cacao, domaine vanibel…)<br />
+        pointe: "La capitale : Pointe à Pitre"
+        pointep: >
+            Un peu plus loin, Pointe à Pitre, ses rues commerçantes, ses marchés et le «Mémorial Act » (centre caribéen d'expressions et de mémoire de la traite de l'esclavage).<br />
+            Il faut venir au marché mais également au marché aux poissons : Observer la façon (et les outils maisons !) pour écailler les poissons. Regarder tous les fruits et les légumes et également les jolies bouteilles des planteurs, ti Punch et cocktail préparés par les jolies doudous… un souvenir qui vous réchauffera au milieu de l’hiver !<br />
+        grandterre: "Grande terre, ses visites et ses plages"
+        grandterrep : >
+            La seconde aile du papillon offre également des visites merveilleuses.<br />
+            - La pointe des châteaux, paysage grandiose avec une mer souvent agitée qui offre un joli spectacle ! Au loin on aperçoit La Désirade.<br />
+            - Entre Sainte Anne et Saint Francois, la plage des raisins clairs est souvent citée dans les guides comme l’une des plus belles plages de Guadeloupe. Elle mérite vraiment un petit arrêt …<br />
+    contact:
+        title: "Nous contacter - La Villa Désirée répond à toute vos questions"
+        titlemeta: "Nous contacter - La Villa Désirée répond à toute vos questions"
+        h2: "Pour contacter Villa Désirée, location de maison en GUADELOUPE"
+        p: N’hésitez pas à nous contacter pour toute demande de réservation, explications, autres informations…
+    cost:
+        title: "Réservation et Tarfis"
 
-
-
+entity:
+    contact:
+        name: "Votre nom"
+        email: "Votre email"
+        message: "Votre demande"
 
 
 

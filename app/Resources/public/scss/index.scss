@@ -12,6 +12,12 @@
 .title-bar{
     background: rgba(1, 176, 240, 0.4);
 }
+.title-bar a{
+    color: #FFFFFF;
+}
+.title-bar a:hover{
+    color: $tertiary-color;
+}
 
 .padding-top{
     padding-top: 2rem;
@@ -42,10 +48,33 @@ img.small {
     max-height: 175px;
 }
 
+img.medium {
+    max-height: 250px;
+}
+
+img.large {
+    max-height: 350px;
+}
+
 #topbar1{
     position: absolute;
     top:0;
     left:0;
     right:0;
     height:50px;
+}
+
+.form-panel{
+    background: scale-color($body-background, $lightness: -14%);
+    border:1px solid scale-color($body-background, $lightness: +14%);
+    padding: 2rem;
+}
+
+textarea.medium{
+    min-height: 100px;
+}
+
+footer.footer{
+    min-height: 150px;
+    background: $blueciel;
 }

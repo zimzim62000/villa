@@ -10,34 +10,51 @@ app:
         titlemeta: "La Villa Désirée, location de maison de vacances avec piscine privée à Deshaies en GUADELOUPE"
         h1: "Bienvenue à Villa Désirée, location de maison de vacances avec piscine privée à Deshaies en GUADELOUPE"
         p1: >
-            <strong>Une villa créole de 3 chambres</strong> (+ 1 pour enfant) climatisées avec une cuisine équipée, deux salles de bains et une grande terrasse.<br /><strong>Un jardin tropical</strong> entoure la villa.
-            La villa possède sa piscine privée (au sel) et permet également d’accéder à la très jolie plage de bas-vent à moins de 5 minutes à pied (juste en descendant les petites rues de la résidence)
-        h2: "La villa Désirée, en Guadeloupe : une location de vacances en bord de mer (5 minutes à pied) avec sa piscine privée (7X3m, au sel)"
+            La Villa Désirée, une villa pour vos vacances en famille en Guadeloupe.<br />
+            La villa est située sur Basse Terre en GUADELOUPE, sur la commune de DESHAIES.<br />
+            La Villa Désirée est une villa créole qui comporte 4 chambres (dont 1 pour enfant), une grande terrasse et qui est entourée de son jardin tropical.<br />
+            La villa possède sa propre piscine de 7m sur 3m avec sa terrasse et ses transats, piscine entourée de palmiers et arbres exotiques…<br />
+            La Villa Désirée est située en bord de mer, la très jolie plage de bas-vent est située à moins de 5 minutes à pied (juste en descendant les petites rues de la résidence).<br />
+            La Villa Désirée, une villa familiale complétement équipée pour 8 personnes.<br />
+            Venez y passer vos vacances en famille ou entre amis<br />
+        h2: "La Villa Désirée, en Guadeloupe : une location de vacances en bord de mer avec sa piscine privée pour vos vacances en famille"
         environement: "ENVIRONNEMENT - La Villa Désirée, location de maison dans un environnement préservé au nord de basse terre en GUADELOUPE"
         environementp: >
             La ville de DESHAIES est une station touristique et balnéaire, tournée vers un tourisme responsable pour la protection de l’environnement et qui a gardée toute son
             authenticité avec son bourg coloré et vivant, son ancienne église et son port de pêche. La commune dispose
             de nombreuses plages de sable blanc toute plus belles les unes que les autres.
-        lavilla: "LA VILLA - La Villa Désirée, une villa tout confort, 3 chambres climatisées (+1 pour enfant, climatisée également) avec piscine et plage pour vos locations de vacances"
+        lavilla: "La Villa Désirée, une villa tout confort, 4 chambres climatisées avec piscine et plage pour vos locations de vacances"
+        lavillap: >
+            La Villa Désirée : une maison de style traditionnel créole<br />
+            La Villa Désirée est une maison de 100m2 nichée au milieu d’un jardin fleuri.<br />
+            Elle est composée de 4 chambres climatisées, de deux salles d’eau (avec douche), d’une cuisine ouverte sur le salon et d’une grande terrasse donnant sur la piscine.<br />
+            Les 3 chambres doubles sont équipées avec des lits en 160 cm et la chambre pour enfant comporte 2 lits superposés en 90cm.<br />
+            Les chambres sont spacieuses, agréables et possèdent toutes une vue sur le jardin.<br />
+            Les 2 salles de bain sont équipées de lavabo et de douches et pour plus de confort les toilettes sont indépendants.<br />
+            La cuisine est équipée de tous les éléments nécessaires (Frigo-congélateur, lave-vaisselle…) et un lave-linge est également disponible<br />
+            Enfin la 1 grande terrasse permet de profiter du jardin et de la piscine<br />
+            Bien sur un accès Wi FI est disponible<br />
+        chambre: "La Villa Désirée, 3 chambres climatisées avec lit double et 1 chambre pour enfant climatisée avec lit superposé"
         chambrep: >
-            <p class="secondary-color text-center"><strong>Villa Désirée : une maison de style traditionnel créole</strong></p>
-            <ul class=""><li class="secondary-color">3 chambres climatisées avec des lits en 160 cm</li>
-            <li class="secondary-color">1 chambre climatisée pour enfant (2 lits superposés en 90cm)</li>
-            <li class="secondary-color">2 salles de bain (lavabo et douches)</li>
-            <li class="secondary-color">1 cuisine ouverte</li>
-            <li class="secondary-color">1 grande terrasse ouverte sur le jardin et la piscine</li>
-            <li class="secondary-color">1 accès Wi FI</li>
-            </ul>
-        chambre: "LES CHAMBRES - La Villa Désirée, 3 chambres climatisées avec lit double et 1 chambre pour enfant climatisée avec lit superposé"
+            La Villa Désirée possède 4 chambres :
+            3 chambres doubles avec des lits en 160x200 cm
+            1 chambre avec lits superposés
+            Les 4 chambres sont équipées de climatiseurs et toutes sont équipées de moustiquaires pour éviter les désagréments des insectes piqueurs…
+            La literie est de très bonne qualité pour vous assurer des nuits réparatrices afin de profiter au maximum de vos journées sur l’île Papillon.
+            Les lits sont faits à votre arrivée, vous n’avez pas de draps à prévoir.
+            Toutes les chambres sont décorées avec leur propre style, à vous de choisir celle que vous préférez.
         cuisine: "LA CUISINE - La Villa Désirée, une location de vacances pour cuisiner ou pour profiter"
         cuisinep: >
-            <p class="secondary-color">Une <strong>cuisine ouverte avec un accès direct sur la terrasse</strong>(cuisine entièrement équipée : lave-vaisselle, frigo-congélateur, plaque de cuisson, micro-ondes…)
-            et <strong>tout le matériel nécessair</strong>e pour préparer et consommer vos repas (cafetière, grille-pain, bouilloire, mixeur, divers ustensiles …)</p>
+           Une cuisine ouverte avec un accès direct sur la terrasse (cuisine entièrement équipée : lave-vaisselle, frigo-congélateur, plaque de cuisson, micro-ondes…) et tout le matériel nécessaire pour préparer et consommer vos repas (cafetière, grille-pain, bouilloire, mixeur, divers ustensiles …)<br />
+           Dans la cuisine, vous pourrez vous préparer de délicieuses salades, de bons plats mijotés ou des grillades de poisson. N’hésitez pas à découvrir le port de DESHAIES, de nombreux pécheurs vous indiqueront la meilleure recette de poisson (au lait de coco) à préparer à la Villa Désirée.<br />
+           En passant au marché, vous trouverez aussi de belles tomates, avocats et autre ingrédients pour des salades appétissante et bien fraiches à déguster à la Villa.<br />
+           Et n’oubliez pas qu’en rentrant de vos journées découvertes, vous pouvez également profitez des nombreux lolos et autre petits restos qui vous proposent des plats à emporter à réchauffer à la Villa Désirée.<br />
         terrasse: "LA TERRASSE - La Villa Désirée, une location de vacances pour se détendre"
         terrassep: >
-            Une terrasse couverte de plus de 22 m2 pour prendre vos repas (grande table en bois)
-            Un barbecue à gaz vous attend pour griller vos poissons ou langoustes !
-            Une terrasse détente avec un coin salon (canapé) et hamac
+            La Villa Désirée comprend une terrasse couverte de plus de 22 m2 pour prendre vos repas (grande table en bois) et également un coin détente avec canapé, pouf et hamac<br />
+            C’est souvent l’endroit le plus fréquenté de la villa !<br />
+            On y discute, on y mange, on profite du jardin, on surveille les enfants dans la piscine. La terrasse de la Villa Désirée est réellement l’endroit magique de la maison.<br />
+            La terrasse est équipée d’un barbecue à gaz qui vous attend pour griller vos poissons ou langoustes ! Un régal à la tombée du jour…<br />
         piscine: "LA PISCINE - Villa Désirée, une maison de vacances avec sa piscine privative"
         piscinep: >
             Une piscine (7m x 3m) au sel (aucun produit chimique, ne pique pas les yeux, pas d’allergie).

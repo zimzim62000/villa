@@ -163,13 +163,13 @@
 
     <div class="row full-width text-center">
         <div class="small-6 columns padding-bottom">
-            {% image '@AppBundle/Resources/public/images/banane_maison.jpg' %}
-            <img class="medium" src="{{ asset_url }}" alt="Example" />
+            {% image '@AppBundle/Resources/public/images/les-palmiers-de-la-villa.jpg' %}
+            <img class="medium" src="{{ asset_url }}" title="{{ 'image.jardin1'|trans }}" alt="{{ 'image.jardin1'|trans }}" />
             {% endimage %}
         </div>
         <div class="small-6 columns padding-bottom">
             {% image '@AppBundle/Resources/public/images/banane_maison.jpg' %}
-            <img class="medium" src="{{ asset_url }}" alt="Example" />
+            <img class="large" src="{{ asset_url }}" title="{{ 'image.jardin2'|trans }}" alt="{{ 'image.jardin2'|trans }}" />
             {% endimage %}
         </div>
     </div>
@@ -187,9 +187,14 @@
 
     <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/villa_piscine.jpg"></div>
 
-    <div class="row full-width" id="guada">
-        <div class="small-10 small-centered columns">
+    <div class="row padding-top" id="guada">
+        <div class="small-6 columns">
             <h2 class="tertiary-color text-center padding-top">{{ 'app.index.environement'|trans }}</h2>
+        </div>
+        <div class="small-6 columns text-center">
+            {% image '@AppBundle/Resources/public/images/Carte-Guadeloupe-3.jpg' %}
+            <img class="medium" src="{{ asset_url }}" title="{{ 'image.carte'|trans }}" alt="{{ 'image.carte'|trans }}" />
+            {% endimage %}
         </div>
     </div>
     <div class="row full-width">
@@ -197,6 +202,20 @@
             <p class="secondary-color padding-top padding-bottom">{{ 'app.index.environementp'|trans|raw }}</p>
         </div>
     </div>
+
+    <div class="row full-width">
+        <div class="small-6 columns text-center padding-bottom">
+            {% image '@AppBundle/Resources/public/images/deshaies.jpg' %}
+            <img class="medium" src="{{ asset_url }}" title="{{ 'image.deshaies'|trans }}" alt="{{ 'image.deshaies'|trans }}" />
+            {% endimage %}
+        </div>
+        <div class="small-6 columns text-center">
+            {% image '@AppBundle/Resources/public/images/eglise_deshaies.jpg' %}
+            <img class="medium" src="{{ asset_url }}" title="{{ 'image.eglisedeshaie'|trans }}"  alt="{{ 'image.eglisedeshaie'|trans }}" />
+            {% endimage %}
+        </div>
+    </div>
+
 
     <div class="row full-width">
         <div class="small-10 small-centered columns">
@@ -207,6 +226,18 @@
         </div>
     </div>
 
+    <div class="row full-width">
+        <div class="small-6 columns text-center padding-bottom">
+            {% image '@AppBundle/Resources/public/images/epice.jpg' %}
+            <img class="large" src="{{ asset_url }}" title="{{ 'image.marche1'|trans }}" alt="{{ 'image.marche1'|trans }}" />
+            {% endimage %}
+        </div>
+        <div class="small-6 columns text-center">
+            {% image '@AppBundle/Resources/public/images/legume.jpg' %}
+            <img class="large" src="{{ asset_url }}" title="{{ 'image.marche2'|trans }}"  alt="{{ 'image.marche2'|trans }}" />
+            {% endimage %}
+        </div>
+    </div>
 
     <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/sable_palmier.jpg"></div>
 
@@ -216,6 +247,34 @@
         </div>
         <div class="large-8 large-centered small-12 columns padding-bottom">
             <p class="secondary-color padding-top padding-bottom">{{ 'app.index.activityp'|trans|raw }}</p>
+        </div>
+    </div>
+
+    <div class="owl-carousel">
+        <div class="">
+            {% image '@AppBundle/Resources/public/images/arbre-du-voyageur.jpg' %}
+            <img src="{{ asset_url }}" title="{{ 'image.arbre'|trans }}"  alt="{{ 'image.arbre'|trans }}" />
+            {% endimage %}
+        </div>
+        <div class="">
+            {% image '@AppBundle/Resources/public/images/la-cascade-aux-ecrevisses.jpg' %}
+            <img src="{{ asset_url }}" title="{{ 'image.cascade'|trans }}"  alt="{{ 'image.cascade'|trans }}" />
+            {% endimage %}
+        </div>
+        <div class="">
+            {% image '@AppBundle/Resources/public/images/la-Plage-de-la-Perle.jpg' %}
+            <img src="{{ asset_url }}" title="{{ 'image.plage'|trans }}"  alt="{{ 'image.plage'|trans }}" />
+            {% endimage %}
+        </div>
+        <div class="">
+            {% image '@AppBundle/Resources/public/images/la-plage-malendure.jpg' %}
+            <img src="{{ asset_url }}" title="{{ 'image.plage1'|trans }}"  alt="{{ 'image.plage1'|trans }}" />
+            {% endimage %}
+        </div>
+        <div class="">
+            {% image '@AppBundle/Resources/public/images/la-plongee-les-poissons.jpg' %}
+            <img src="{{ asset_url }}" title="{{ 'image.plonge'|trans }}"  alt="{{ 'image.plonge'|trans }}" />
+            {% endimage %}
         </div>
     </div>
 
@@ -229,14 +288,40 @@
     </div>
 
     <div class="row full-width">
-        <div class="small-6 columns">
+        <div class="medium-6 column text-center  padding-bottom">
             <h4 class="primary-color text-center padding-top">{{ 'app.index.pointe'|trans }}</h4>
             <p class="secondary-color padding-top padding-bottom">{{ 'app.index.pointep'|trans|raw }}</p>
+            {% image '@AppBundle/Resources/public/images/Pointe-à-Pitre_sous-préfecture.jpg' %}
+            <img class="medium" src="{{ asset_url }}" title="{{ 'image.pointe'|trans }}"  alt="{{ 'image.pointe'|trans }}" />
+            {% endimage %}
         </div>
-        <div class="small-6 columns">
+        <div class="medium-6 columns text-center padding-bottom">
             <h4 class="primary-color text-center padding-top">{{ 'app.index.grandterre'|trans }}</h4>
-            <p class="secondary-color padding-top padding-bottom">{{ 'app.index.grandterrep'|trans|raw }}</p>
+            <p class="secondary-color padding-top ">{{ 'app.index.grandterrep'|trans|raw }}</p>
+            {% image '@AppBundle/Resources/public/images/Les-plages-a-proximite.jpg' %}
+            <img class="medium" src="{{ asset_url }}" title="{{ 'image.plage2'|trans }}"  alt="{{ 'image.plage2'|trans }}" />
+            {% endimage %}
         </div>
     </div>
 
 {% endblock %}
+
+
+
+
+{% block javascriptready %}
+    <script>
+        $(document).ready(function(){
+            $(document).foundation();
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                items:3,
+                loop:true,
+                margin:10,
+                autoplay:true,
+                autoplayTimeout:1000,
+                autoplayHoverPause:true
+            });
+        });
+    </script>
+{% endblock javascriptready %}

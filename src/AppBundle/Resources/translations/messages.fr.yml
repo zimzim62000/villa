@@ -15,12 +15,11 @@ app:
             La Villa Désirée est une villa créole qui comporte 4 chambres (dont 1 pour enfant), une grande terrasse et qui est entourée de son jardin tropical.<br />
             La villa possède sa propre piscine de 7m sur 3m avec sa terrasse et ses transats, piscine entourée de palmiers et arbres exotiques…<br />
             La Villa Désirée est située en bord de mer, la très jolie plage de bas-vent est située à moins de 5 minutes à pied (juste en descendant les petites rues de la résidence).<br />
-            La Villa Désirée, une villa familiale complétement équipée pour 8 personnes.<br />
-            Venez y passer vos vacances en famille ou entre amis<br />
+            La Villa Désirée, une villa familiale complétement équipée pour 8 personnes,
+            venez y passer vos vacances en famille ou entre amis (à partir de <strong>130€</strong> la nuit<br />
         h2: "La Villa Désirée, en Guadeloupe : une location de vacances en bord de mer avec sa piscine privée pour vos vacances en famille"
         lavilla: "La Villa Désirée, une villa tout confort, 4 chambres climatisées avec piscine et plage pour vos locations de vacances"
         lavillap: >
-            La Villa Désirée : une maison de style traditionnel créole<br />
             La Villa Désirée est une maison de 100m2 nichée au milieu d’un jardin fleuri.<br />
             Elle est composée de 4 chambres climatisées, de deux salles d’eau (avec douche), d’une cuisine ouverte sur le salon et d’une grande terrasse donnant sur la piscine.<br />
             Les 3 chambres doubles sont équipées avec des lits en 160 cm et la chambre pour enfant comporte 2 lits superposés en 90cm.<br />
@@ -29,15 +28,15 @@ app:
             La cuisine est équipée de tous les éléments nécessaires (Frigo-congélateur, lave-vaisselle…) et un lave-linge est également disponible<br />
             Enfin la 1 grande terrasse permet de profiter du jardin et de la piscine<br />
             Bien sur un accès Wi FI est disponible<br />
-        chambre: "La Villa Désirée, 3 chambres climatisées avec lit double et 1 chambre pour enfant climatisée avec lit superposé"
+        chambre: "La Villa Désirée,les chambres"
         chambrep: >
-            La Villa Désirée possède 4 chambres :
+            La Villa Désirée possède 4 chambres :<br />
             3 chambres doubles avec des lits en 160x200 cm
-            1 chambre avec lits superposés
-            Les 4 chambres sont équipées de climatiseurs et toutes sont équipées de moustiquaires pour éviter les désagréments des insectes piqueurs…
-            La literie est de très bonne qualité pour vous assurer des nuits réparatrices afin de profiter au maximum de vos journées sur l’île Papillon.
-            Les lits sont faits à votre arrivée, vous n’avez pas de draps à prévoir.
-            Toutes les chambres sont décorées avec leur propre style, à vous de choisir celle que vous préférez.
+            1 chambre avec lits superposés<br />
+            Les 4 chambres sont équipées de climatiseurs et toutes sont équipées de moustiquaires pour éviter les désagréments des insectes piqueurs…<br />
+            La literie est de très bonne qualité pour vous assurer des nuits réparatrices afin de profiter au maximum de vos journées sur l’île Papillon.<br />
+            Les lits sont faits à votre arrivée, vous n’avez pas de draps à prévoir.<br />
+            Toutes les chambres sont décorées avec leur propre style, à vous de choisir celle que vous préférez.<br />
         cuisine: "LA CUISINE - La Villa Désirée, une location de vacances pour cuisiner ou pour profiter"
         cuisinep: >
            Une cuisine ouverte avec un accès direct sur la terrasse (cuisine entièrement équipée : lave-vaisselle, frigo-congélateur, plaque de cuisson, micro-ondes…) et tout le matériel nécessaire pour préparer et consommer vos repas (cafetière, grille-pain, bouilloire, mixeur, divers ustensiles …)<br />
@@ -141,5 +140,18 @@ entity:
         email: "Votre email"
         message: "Votre demande"
 
-
-
+image:
+    deshaie: "la ville de Deshaies en guadeloupe"
+    eglisedeshaie: "l'église de la ville de Deshaies en guadeloupe"
+    marche1: "Le marché aux épices traditionel de Deshaie"
+    marche2: "Le marché aux légumes de Deshaie"
+    jardin1: "Les palmies du jardin de la villa désirée à deshaie"
+    jardin2: "Les bananes du jardin de la villa désirée en guadeloupe"
+    arbre: "l'abre du voyageur de la villa"
+    carte: "La carte de la guadeloupe"
+    cascade: "La cascade aux ecrevisesses à 2 pas de la villa"
+    plage: "la Plage de la Perle"
+    plage1: "la Plage malendure"
+    plage2: "les plages de guadeloupe à ne pas manquer"
+    plonge: "La plongée avec les poissons en guadeloupe"
+    pointe: "La capitale Pointe à Pitre"

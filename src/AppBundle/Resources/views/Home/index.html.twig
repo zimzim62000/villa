@@ -4,6 +4,10 @@
     {{ 'app.index.titlemeta'|trans }}
 {% endblock %}
 
+{% block meta %}
+    <meta name="description" content="{{ 'app.index.metadesc'|trans }}" />
+{% endblock %}
+
 {% block body %}
 
     <div class="row full-width">
@@ -25,7 +29,7 @@
         </div>
     </div>
 
-    <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/palmito.jpg"></div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/la-plongee-les-fonds-marrins.jpg"></div>
 
     <div class="row full-width">
         <div class="small-10 small-centered columns">
@@ -143,6 +147,12 @@
             <img class="small" src="{{ asset_url }}" alt="Example" />
             {% endimage %}
         </div>
+
+
+        <div class="small-4 small-centered columns text-center padding-bottom padding-top">
+        <a href="{{ path('app_home_cost') }}"
+           class="button success large">{{ 'app.index.clicktocall'|trans }}</a>
+        </div>
     </div>
 
 
@@ -162,14 +172,12 @@
     </div>
 
     <div class="row full-width text-center">
-        <div class="small-6 columns padding-bottom">
+        <div class="medium-6 medium-centered columns padding-bottom">
             {% image '@AppBundle/Resources/public/images/les-palmiers-de-la-villa.jpg' %}
-            <img class="medium" src="{{ asset_url }}" title="{{ 'image.jardin1'|trans }}" alt="{{ 'image.jardin1'|trans }}" />
+            <img class="large padding-1" src="{{ asset_url }}" title="{{ 'image.jardin1'|trans }}" alt="{{ 'image.jardin1'|trans }}" />
             {% endimage %}
-        </div>
-        <div class="small-6 columns padding-bottom">
             {% image '@AppBundle/Resources/public/images/banane_maison.jpg' %}
-            <img class="large" src="{{ asset_url }}" title="{{ 'image.jardin2'|trans }}" alt="{{ 'image.jardin2'|trans }}" />
+            <img class="large padding-1" src="{{ asset_url }}" title="{{ 'image.jardin2'|trans }}" alt="{{ 'image.jardin2'|trans }}" />
             {% endimage %}
         </div>
     </div>
@@ -206,7 +214,7 @@
     <div class="row full-width">
         <div class="small-6 columns text-center padding-bottom">
             {% image '@AppBundle/Resources/public/images/deshaies.jpg' %}
-            <img class="medium" src="{{ asset_url }}" title="{{ 'image.deshaies'|trans }}" alt="{{ 'image.deshaies'|trans }}" />
+            <img class="medium" src="{{ asset_url }}" title="{{ 'image.deshaie'|trans }}" alt="{{ 'image.deshaie'|trans }}" />
             {% endimage %}
         </div>
         <div class="small-6 columns text-center">
@@ -239,7 +247,7 @@
         </div>
     </div>
 
-    <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/sable_palmier.jpg"></div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/les-flamants-du-jardin-botanique.jpg"></div>
 
     <div class="row full-width" id="activity">
         <div class="small-10 small-centered columns">
@@ -250,7 +258,7 @@
         </div>
     </div>
 
-    <div class="owl-carousel">
+    <div class="owl-carousel padding-bottom">
         <div class="">
             {% image '@AppBundle/Resources/public/images/arbre-du-voyageur.jpg' %}
             <img src="{{ asset_url }}" title="{{ 'image.arbre'|trans }}"  alt="{{ 'image.arbre'|trans }}" />
@@ -282,10 +290,12 @@
         <div class="small-10 small-centered columns">
             <h3 class="primary-color text-center padding-top">{{ 'app.index.decouverte'|trans }}</h3>
         </div>
-        <div class="small-10 small-centered columns padding-bottom">
+        <div class="small-10 small-centered columns">
             <p class="secondary-color padding-top padding-bottom">{{ 'app.index.decouvertep'|trans|raw }}</p>
         </div>
     </div>
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/Les-plages-a-proximite.jpg"></div>
 
     <div class="row full-width">
         <div class="medium-6 column text-center  padding-bottom">
@@ -319,7 +329,7 @@
                 loop:true,
                 margin:10,
                 autoplay:true,
-                autoplayTimeout:1000,
+                autoplayTimeout:2500,
                 autoplayHoverPause:true
             });
         });

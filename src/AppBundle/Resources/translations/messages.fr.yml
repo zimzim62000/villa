@@ -8,6 +8,7 @@ app:
             contact: "Nous contacter"
         title: "La Villa Désirée"
         titlemeta: "La Villa Désirée, location de maison de vacances avec piscine privée à Deshaies en GUADELOUPE"
+        metadesc: "Location de Villa Créole \" la désirée \" avec piscine à 5min du bord de mer pour vos vacances en famille ou entre amis à Deshaies en Basse Terre Guadeloupe."
         h1: "Bienvenue à Villa Désirée, location de maison de vacances avec piscine privée à Deshaies en GUADELOUPE"
         p1: >
             La Villa Désirée, une villa pour vos vacances en famille en Guadeloupe.<br />
@@ -15,9 +16,8 @@ app:
             La Villa Désirée est une villa créole qui comporte 4 chambres (dont 1 pour enfant), une grande terrasse et qui est entourée de son jardin tropical.<br />
             La villa possède sa propre piscine de 7m sur 3m avec sa terrasse et ses transats, piscine entourée de palmiers et arbres exotiques…<br />
             La Villa Désirée est située en bord de mer, la très jolie plage de bas-vent est située à moins de 5 minutes à pied (juste en descendant les petites rues de la résidence).<br />
-            La Villa Désirée, une villa familiale complétement équipée pour 8 personnes,
-            venez y passer vos vacances en famille ou entre amis (à partir de <strong>130€</strong> la nuit<br />
-        h2: "La Villa Désirée, en Guadeloupe : une location de vacances en bord de mer avec sa piscine privée pour vos vacances en famille"
+            La Villa Désirée, une villa familiale complétement équipée pour 8 personnes<br />
+        h2: "Venez y passer vos vacances en famille ou entre amis ( à partir de 130€ la nuit )"
         lavilla: "La Villa Désirée, une villa tout confort, 4 chambres climatisées avec piscine et plage pour vos locations de vacances"
         lavillap: >
             La Villa Désirée est une maison de 100m2 nichée au milieu d’un jardin fleuri.<br />
@@ -28,7 +28,7 @@ app:
             La cuisine est équipée de tous les éléments nécessaires (Frigo-congélateur, lave-vaisselle…) et un lave-linge est également disponible<br />
             Enfin la 1 grande terrasse permet de profiter du jardin et de la piscine<br />
             Bien sur un accès Wi FI est disponible<br />
-        chambre: "La Villa Désirée,les chambres"
+        chambre: "La Villa Désirée, les chambres"
         chambrep: >
             La Villa Désirée possède 4 chambres :<br />
             3 chambres doubles avec des lits en 160x200 cm
@@ -58,14 +58,13 @@ app:
             A la Villa Désirée, vous profitez des joies de la piscine sans aucun traitement chimique, aucune odeur de chlore, aucune irritation de la peau, des yeux…autant de bénéfice pour la santé et la peau fragile des enfants.<br />
             Vous pouvez donc sauter, jouer et nager en toute tranquillité.<br />
             Et avantage pour notre planète, c’est un traitement beaucoup plus écologique.<br />
+        clicktocall: "Je réserve !"
         jardin: "LE JARDIN TROPICAL – La Villa Désirée, une location de vacances dans un jardin caraïbe"
         jardinp: >
             La Villa Désirée est blottie au cœur d’un joli jardin caraïbe. Le jardin qui entoure la villa abrite plusieurs essences typiquement caribéennes.<br />
             Dès l’entrée, de majestueux palmiers Bismarck vous enchanteront de leurs teintes bleutées. Près de la piscine, le grand arbre du voyageur étend ses branches en éventail. <br />
             La végétation prend place tout autour de la maison et les fleurs tropicales offrent leurs couleurs… Les bougainvilliers rouges et blancs vous enchanterons…<br />
             Et dans le jardin tropical, la cueillette est de mise. En fonction de la saison et de votre date de location de vacances, vous trouverez les bananes, corossols et mangues prêtes à déguster.
-            Un citronnier et des maracujas devraient bientôt prendre place également…<br />
-            Et dans le jardin tropical, la cueillette est de mise. En fonction de la saison et de votre date de location de vacances, vous trouverez les bananes, corossols et mangues prêtes à déguster.<br />
             Un citronnier et des maracujas devraient bientôt prendre place également…<br />
         plage: "LA PLAGE - La Villa Désirée, location de vacances en bord de plage."
         plagep: >

@@ -6181,67 +6181,89 @@ a.thumbnail image {
 }
 
 /* line 18, ../scss/index.scss */
-.title-bar a {
+.title-bar a.white {
   color: #FFFFFF;
 }
 
 /* line 21, ../scss/index.scss */
-.title-bar a:hover {
+.title-bar a.white:hover {
   color: #01B0F0;
 }
 
-/* line 25, ../scss/index.scss */
+/* line 24, ../scss/index.scss */
+.title-bar a.secondary-color {
+  color: #FF73BF;
+  margin-top: 10px;
+}
+
+/* line 28, ../scss/index.scss */
+.title-bar a.secondary-color:hover {
+  color: #FFFFFF;
+}
+
+/* line 31, ../scss/index.scss */
+.title-bar a.button {
+  background: #3adb76;
+  border-radius: 40px;
+}
+
+/* line 37, ../scss/index.scss */
+.padding-1 {
+  padding: 1rem;
+}
+
+/* line 41, ../scss/index.scss */
 .padding-top {
   padding-top: 2rem;
 }
 
-/* line 29, ../scss/index.scss */
+/* line 45, ../scss/index.scss */
 .padding-bottom {
   padding-bottom: 2rem;
 }
 
-/* line 33, ../scss/index.scss */
+/* line 49, ../scss/index.scss */
 .primary-color {
   color: #01B0F0;
 }
 
-/* line 36, ../scss/index.scss */
+/* line 52, ../scss/index.scss */
 .secondary-color {
   color: #FF73BF;
 }
 
-/* line 39, ../scss/index.scss */
+/* line 55, ../scss/index.scss */
 .tertiary-color {
   color: #01B0F0;
 }
 
-/* line 42, ../scss/index.scss */
+/* line 58, ../scss/index.scss */
 .full-width {
   max-width: 100%;
 }
 
-/* line 45, ../scss/index.scss */
+/* line 61, ../scss/index.scss */
 .fullfull-width {
   max-width: 100%;
   width: 100%;
 }
 
-/* line 50, ../scss/index.scss */
+/* line 66, ../scss/index.scss */
 img.small {
   max-height: 175px;
 }
 
-/* line 54, ../scss/index.scss */
+/* line 70, ../scss/index.scss */
 img.medium {
   max-height: 250px;
 }
 
-/* line 58, ../scss/index.scss */
+/* line 74, ../scss/index.scss */
 img.large {
   max-height: 350px;
 }
 
-/* line 62, ../scss/index.scss */
+/* line 78, ../scss/index.scss */
 #topbar1 {
   position: absolute;
   top: 0;
@@ -6250,20 +6272,33 @@ img.large {
   height: 50px;
 }
 
-/* line 70, ../scss/index.scss */
+/* line 86, ../scss/index.scss */
 .form-panel {
   background: #a1e5dd;
   border: 1px solid #d9f5f1;
   padding: 2rem;
 }
 
-/* line 76, ../scss/index.scss */
+/* line 92, ../scss/index.scss */
 textarea.medium {
   min-height: 100px;
 }
 
-/* line 80, ../scss/index.scss */
+/* line 96, ../scss/index.scss */
 footer.footer {
   min-height: 150px;
   background: rgba(1, 176, 240, 0.4);
+}
+
+/* line 101, ../scss/index.scss */
+a.button.success {
+  color: #FFFFFF;
+  border-radius: 40px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* line 107, ../scss/index.scss */
+a.button.success:hover {
+  color: #FF73BF;
 }

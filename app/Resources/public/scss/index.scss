@@ -15,11 +15,27 @@
 .title-bar{
     background: rgba(1, 176, 240, 0.4);
 }
-.title-bar a{
+.title-bar a.white{
     color: #FFFFFF;
 }
-.title-bar a:hover{
+.title-bar a.white:hover{
     color: $tertiary-color;
+}
+.title-bar a.secondary-color{
+    color: $secondary-color;
+    margin-top:10px;
+}
+.title-bar a.secondary-color:hover{
+    color: #FFFFFF;
+}
+.title-bar a.button {
+    background: $success-color;
+    border-radius: 40px;
+}
+
+
+.padding-1{
+    padding:1rem;
 }
 
 .padding-top{
@@ -80,4 +96,14 @@ textarea.medium{
 footer.footer{
     min-height: 150px;
     background: rgba(1, 176, 240, 0.4);
+}
+
+a.button.success{
+    color: #FFFFFF;
+    border-radius: 40px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+a.button.success:hover{
+    color: $secondary-color;
 }

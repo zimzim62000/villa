@@ -40,11 +40,12 @@
                 <script src="{{ asset_url }}"></script>
             {% endjavascripts %}
 
+
+        {% block javascriptready %}
             <script>
-
                 $(document).foundation();
-
             </script>
+        {% endblock javascriptready %}
 
         {% endblock %}
 

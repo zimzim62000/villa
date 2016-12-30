@@ -3,6 +3,9 @@
 
 @include foundation-everything;
 
+@import 'owl.carousel.min';
+@import 'owl.theme.default.min';
+
 //paralax
 .parallax-window {
     min-height: 500px;
@@ -76,5 +79,5 @@ textarea.medium{
 
 footer.footer{
     min-height: 150px;
-    background: $blueciel;
+    background: rgba(1, 176, 240, 0.4);
 }

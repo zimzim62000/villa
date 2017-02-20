@@ -44,24 +44,26 @@
 
     {#  Photos de la villa #}
     <div class="row full-width">
-        <div class="small-3 columns">
-            {% image '@AppBundle/Resources/public/images/villa_vue_generale.jpg' %}
-            <img src="{{ asset_url }}" alt="Example" />
+        <div class="small-6 columns">
+            {% image '@AppBundle/Resources/public/images/villa_entree_devanture.jpg' %}
+            <img src="{{ asset_url }}" alt="{{ 'image.maison1'|trans }}" title="{{ 'image.maison1'|trans }}" />
             {% endimage %}
         </div>
-        <div class="small-3 columns">
-            {% image '@AppBundle/Resources/public/images/devanture_villa.jpg' %}
-            <img src="{{ asset_url }}" alt="Example" />
+        <div class="small-6 columns">
+            {% image '@AppBundle/Resources/public/images/villa_la_desiree_cote_cour.jpg' %}
+            <img src="{{ asset_url }}" alt="{{ 'image.maison2'|trans }}" title="{{ 'image.maison2'|trans }}" />
             {% endimage %}
         </div>
-        <div class="small-3 columns">
-            {% image '@AppBundle/Resources/public/images/villa_vue_generale.jpg' %}
-            <img src="{{ asset_url }}" alt="Example" />
+    </div>
+    <div class="row full-width  padding-top">
+        <div class="small-6 columns">
+            {% image '@AppBundle/Resources/public/images/villa_la_desiree_entree_garage.jpg' %}
+            <img src="{{ asset_url }}" alt="{{ 'image.maison3'|trans }}" title="{{ 'image.maison3'|trans }}" />
             {% endimage %}
         </div>
-        <div class="small-3 columns">
-            {% image '@AppBundle/Resources/public/images/villa_clim.jpg' %}
-            <img src="{{ asset_url }}" alt="Example" />
+        <div class="small-6 columns">
+            {% image '@AppBundle/Resources/public/images/villa_la_table_du_dejeuner_creole.jpg' %}
+            <img src="{{ asset_url }}" alt="{{ 'image.maison4'|trans }}" title="{{ 'image.maison4'|trans }}" />
             {% endimage %}
         </div>
     </div>
@@ -80,13 +82,25 @@
     {#  Photos des chambres #}
     <div class="row full-width">
         <div class="small-6 columns">
-            {% image '@AppBundle/Resources/public/images/villa_vue_generale.jpg' %}
-            <img src="{{ asset_url }}" alt="Example" />
+            {% image '@AppBundle/Resources/public/images/chambre_enfant.jpg' %}
+            <img src="{{ asset_url }}" alt="{{ 'image.chambre1'|trans }}" title="{{ 'image.chambre1'|trans }}"  />
             {% endimage %}
         </div>
         <div class="small-6 columns">
-            {% image '@AppBundle/Resources/public/images/devanture_villa.jpg' %}
-            <img src="{{ asset_url }}" alt="Example" />
+            {% image '@AppBundle/Resources/public/images/chambre_parentale.jpg' %}
+            <img src="{{ asset_url }}" alt="{{ 'image.chambre2'|trans }}" title="{{ 'image.chambre2'|trans }}" />
+            {% endimage %}
+        </div>
+    </div>
+    <div class="row full-width padding-top">
+        <div class="small-6 columns">
+            {% image '@AppBundle/Resources/public/images/chambre_mezzanine.jpg' %}
+            <img src="{{ asset_url }}" alt="{{ 'image.chambre3'|trans }}" title="{{ 'image.chambre3'|trans }}" />
+            {% endimage %}
+        </div>
+        <div class="small-6 columns">
+            {% image '@AppBundle/Resources/public/images/villa_desiree_la_chambre_jaune.jpg' %}
+            <img src="{{ asset_url }}" alt="{{ 'image.chambre4'|trans }}" title="{{ 'image.chambre4'|trans }}" />
             {% endimage %}
         </div>
     </div>
@@ -102,14 +116,19 @@
         </div>
     </div>
     <div class="row full-width">
-        <div class="small-6 columns text-center padding-bottom">
-            {% image '@AppBundle/Resources/public/images/villa_clim.jpg' %}
-            <img class="small" src="{{ asset_url }}" alt="Example" />
+        <div class="small-4 columns text-center padding-bottom">
+            {% image '@AppBundle/Resources/public/images/la_cuisine_de_la_villa.jpg' %}
+            <img class="" src="{{ asset_url }}"  alt="{{ 'image.cuisine1'|trans }}" title="{{ 'image.cuisine1'|trans }}" />
             {% endimage %}
         </div>
-        <div class="small-6 columns text-center">
-            {% image '@AppBundle/Resources/public/images/villa_clim.jpg' %}
-            <img class="small" src="{{ asset_url }}" alt="Example" />
+        <div class="small-4 columns text-center">
+            {% image '@AppBundle/Resources/public/images/la_table_de_la_villa_le_soir.jpg' %}
+            <img class="" src="{{ asset_url }}"  alt="{{ 'image.cuisine2'|trans }}" title="{{ 'image.cuisine2'|trans }}" />
+            {% endimage %}
+        </div>
+        <div class="small-4 columns text-center">
+            {% image '@AppBundle/Resources/public/images/salon_interieur.jpg' %}
+            <img class="" src="{{ asset_url }}"  alt="{{ 'image.cuisine3'|trans }}" title="{{ 'image.cuisine3'|trans }}" />
             {% endimage %}
         </div>
     </div>
@@ -133,18 +152,18 @@
     </div>
     <div class="row full-width">
         <div class="small-4 columns text-center padding-bottom">
-            {% image '@AppBundle/Resources/public/images/villa_piscine.jpg' %}
-            <img class="small" src="{{ asset_url }}" alt="Example" />
+            {% image '@AppBundle/Resources/public/images/villa_desisree_la_piscine_palmier.jpg' %}
+            <img class="" src="{{ asset_url }}" alt="{{ 'image.piscine1'|trans }}" title="{{ 'image.piscine1'|trans }}" />
             {% endimage %}
         </div>
         <div class="small-4 columns text-center">
-            {% image '@AppBundle/Resources/public/images/villa_piscine.jpg' %}
-            <img class="small" src="{{ asset_url }}" alt="Example" />
+            {% image '@AppBundle/Resources/public/images/villa_desisree_la_piscine_palmier_v2.jpg' %}
+            <img class="" src="{{ asset_url }}" alt="{{ 'image.piscine2'|trans }}" title="{{ 'image.piscine2'|trans }}" />
             {% endimage %}
         </div>
         <div class="small-4 columns text-center">
-            {% image '@AppBundle/Resources/public/images/villa_piscine.jpg' %}
-            <img class="small" src="{{ asset_url }}" alt="Example" />
+            {% image '@AppBundle/Resources/public/images/villa_desisree_la_piscine_palmier_v3.jpg' %}
+            <img class="" src="{{ asset_url }}" alt="{{ 'image.piscine3'|trans }}" title="{{ 'image.piscine3'|trans }}"  />
             {% endimage %}
         </div>
 
@@ -156,7 +175,7 @@
     </div>
 
 
-    <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/sable_palmier.jpg"></div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/bundles/app/images/plage_de_fort_royal.jpg"></div>
 
     <div class="row full-width">
         <div class="small-10 small-centered columns">

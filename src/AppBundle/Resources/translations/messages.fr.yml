@@ -130,8 +130,23 @@ app:
         h2: "Pour contacter Villa Désirée, location de maison en GUADELOUPE"
         p: N’hésitez pas à nous contacter pour toute demande de réservation, explications, autres informations…
     cost:
-        title: "Réservation et Tarifs"
-
+        title: "Tarifs et Réservation de la Villa Désirée"
+        nuite: "Les nuitées"
+        pnuite: >
+            Basse saison : 3 nuits minimun<br />
+            Moyenne et Haute saison : 7 nuits minimum<br />
+        tarifs: "Les tarifs"
+        legendetarifs: >
+            Basse saison : mai, juin, septembre – octobre<br />
+            Moyenne saison : juillet, aout, toussaint, novembre, jusqu’au 15 décembre<br />
+            Haute saison : 16 – 31 décembre, janvier, février, mars, avril<br />
+        condition: "Les conditions"
+        condiplus: >
+            La réservation est effective après encaissement d’un chèque (ou virement) correspondant à 50% du montant de la location<br />
+            Le solde sera versé le jour de l’arrivée, à la remise des clés (en chèque ou espèces).<br />
+            Un chèque de caution de 800 euros vous sera demandé lors de votre arrivée, et vous sera restitué le jour de votre départ, si aucune dégradation n’est constatée.<br />
+            La taxe de séjour est prise en charge par nos soins (elle est due pour toutes les personnes supérieures à 16 ans, elle est due à la commune de DESHAIES : 0,30 € /jour /personne)<br />
+            Nous vous demandons une participation pour le ménage de fin de séjour, le tarif est de 60€.<br />
 entity:
     contact:
         name: "Votre nom"

@@ -6,9 +6,55 @@
 
 {% block body %}
 
-    <h2 class="tertiary-color text-center">{{ "app.cost.title"|trans }}</h2>
-    <p>
-        Le site est en construction ( La page tarif/réservation arrive bientôt )
-    </p>
+    <div class="row full-width">
+        <div class="small-8 small-centered columns">
+            <h1 class="tertiary-color text-center padding-top">{{ "app.cost.title"|trans }}</h1>
+        </div>
+    </div>
+
+    <div class="row ">
+        <div class="small-8 large-centered small-10 small-centered columns padding-top padding-bottom">
+            <h2 class="tertiary-color text-center padding-top">{{ "app.cost.nuite"|trans }}</h2>
+            <p class="secondary-color">
+                {{ "app.cost.pnuite"|trans|raw }}
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-8 small-centered columns">
+            <h2 class="tertiary-color text-center padding-top">{{ "app.cost.tarifs"|trans }}</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-12 columns">
+            <table>
+                <tr>
+                    <th>Tarif de location</th>
+                    <th>Basse saison*</th>
+                    <th>Moyenne saison*</th>
+                    <th>Haute saison*</th>
+                </tr>
+                <tr class="text-center">
+                    <td>Nuitée</td>
+                    <td colspan="3" >130€</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Semaine</td>
+                    <td>800€</td>
+                    <td>900€</td>
+                    <td>1100€</td>
+                </tr>
+            </table>
+            <p class="secondary-color text-right">
+                {{ "app.cost.legendetarifs"|trans|raw }}
+            </p>
+            <h2 class="tertiary-color text-center padding-top">{{ "app.cost.condition"|trans }}</h2>
+            <p class="secondary-color">
+                {{ "app.cost.condiplus"|trans|raw }}
+            </p>
+        </div>
+    </div>
 
 {% endblock body %}

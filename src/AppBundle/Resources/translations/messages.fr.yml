@@ -37,12 +37,11 @@ app:
             La literie est de très bonne qualité pour vous assurer des nuits réparatrices afin de profiter au maximum de vos journées sur l’île Papillon.<br />
             Les lits sont faits à votre arrivée, vous n’avez pas de draps à prévoir.<br />
             Toutes les chambres sont décorées avec leur propre style, à vous de choisir celle que vous préférez.<br />
-        cuisine: "LA CUISINE - La Villa Désirée, une location de vacances pour cuisiner ou pour profiter"
+        cuisine: "La Villa Désirée, une location de vacances pour cuisiner ou pour profiter"
         cuisinep: >
            Une cuisine ouverte avec un accès direct sur la terrasse (cuisine entièrement équipée : lave-vaisselle, frigo-congélateur, plaque de cuisson, micro-ondes…) et tout le matériel nécessaire pour préparer et consommer vos repas (cafetière, grille-pain, bouilloire, mixeur, divers ustensiles …)<br />
            Dans la cuisine, vous pourrez vous préparer de délicieuses salades, de bons plats mijotés ou des grillades de poisson. N’hésitez pas à découvrir le port de DESHAIES, de nombreux pécheurs vous indiqueront la meilleure recette de poisson (au lait de coco) à préparer à la Villa Désirée.<br />
-           En passant au marché, vous trouverez aussi de belles tomates, avocats et autre ingrédients pour des salades appétissante et bien fraiches à déguster à la Villa.<br />
-           Et n’oubliez pas qu’en rentrant de vos journées découvertes, vous pouvez également profitez des nombreux lolos et autre petits restos qui vous proposent des plats à emporter à réchauffer à la Villa Désirée.<br />
+           Un coin salon équipé d’une télévision écran plat (Tv d’orange) et d’un accès internet en Wi-Fi.<br />
         terrasse: "LA TERRASSE - La Villa Désirée, une location de vacances pour se détendre"
         terrassep: >
             La Villa Désirée comprend une terrasse couverte de plus de 22 m2 pour prendre vos repas (grande table en bois) et également un coin détente avec canapé, pouf et hamac<br />
@@ -131,7 +130,7 @@ app:
         h2: "Pour contacter Villa Désirée, location de maison en GUADELOUPE"
         p: N’hésitez pas à nous contacter pour toute demande de réservation, explications, autres informations…
     cost:
-        title: "Réservation et Tarfis"
+        title: "Réservation et Tarifs"
 
 entity:
     contact:
@@ -145,18 +144,21 @@ image:
     marche1: "Le marché aux épices traditionel de Deshaie"
     marche2: "Le marché aux légumes de Deshaie"
     jardin1: "Les palmies du jardin de la villa désirée à deshaie"
-    jardin2: "Les bananes du jardin de la villa désirée en guadeloupe"
+    jardin2: "Le palmier Bismarck de la villa"
     arbre: "l'abre du voyageur de la villa"
     carte: "La carte de la guadeloupe"
     cascade: "La cascade aux ecrevisesses à 2 pas de la villa"
     plage: "la Plage de la Perle"
     plage1: "la Plage malendure"
     plage2: "les plages de guadeloupe à ne pas manquer"
+    plage3: "La plage de fort royal guadeloupe"
+    plage4: "Le club nautique de la plage de fort royal guadeloupe"
+    plage5: "Les apéro sur la plage de fort royal guadeloupe"
     plonge: "La plongée avec les poissons en guadeloupe"
     pointe: "La capitale Pointe à Pitre"
-    maison1: "L'entrée coté rue de la villa désirée guadeloupe"
-    maison2: "L'entrée coté court de la villa désirée"
-    maison3: "La villa désirée guadeloupe coté garage"
+    maison1: "L’arrivée vers la Villa désirée"
+    maison2: "l’entree coté rue de la villa"
+    maison3: "La vue générale de la villa"
     maison4: "La table à manger en exterieur de la villa"
     chambre1: "villa desiree guadeloupe la chambre enfant"
     chambre2: "la suite parentale"
@@ -167,4 +169,8 @@ image:
     cuisine3: "Le petit salon intérieur"
     piscine1: "La piscine avec ses transats"
     piscine2: "La piscine avec ses transats et son magnifique palmier"
-    piscine3: "La piscine avec ses transats et son magnifique palmier"
+    piscine3: "La pisicne avec ses transats et son magnifique arbre du voyageur"
+    terasse1: "Le jardin détente"
+    terasse2: "La terrase le soir"
+    terasse3: "La terrase et la sa table le matin"
+    terasse4: "La terrase et la sa table le soir"

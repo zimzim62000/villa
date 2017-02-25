@@ -133,7 +133,7 @@ app:
         title: "Tarifs et Réservation de la Villa Désirée"
         nuite: "Les nuitées"
         pnuite: >
-            Basse saison : 3 nuits minimun<br />
+            Basse saison : 5 nuits minimun<br />
             Moyenne et Haute saison : 7 nuits minimum<br />
         tarifs: "Les tarifs"
         legendetarifs: >

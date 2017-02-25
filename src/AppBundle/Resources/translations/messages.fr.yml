@@ -138,15 +138,16 @@ app:
         tarifs: "Les tarifs"
         legendetarifs: >
             Basse saison : mai, juin, septembre – octobre<br />
-            Moyenne saison : juillet, aout, toussaint, novembre, jusqu’au 15 décembre<br />
-            Haute saison : 16 – 31 décembre, janvier, février, mars, avril<br />
+            Moyenne saison : juillet, aout, toussaint, novembre, du 1er au 15 décembre<br />
+            Haute saison : 16 – 23 décembre, janvier, février, mars, avril<br />
+            Trés Haute saison : 24 décembre au 7 janvier<br />
         condition: "Les conditions"
         condiplus: >
             La réservation est effective après encaissement d’un chèque (ou virement) correspondant à 50% du montant de la location<br />
-            Le solde sera versé le jour de l’arrivée, à la remise des clés (en chèque ou espèces).<br />
+            Le solde sera versé par chèque ou virement une semaine avant l'arrivée<br />
             Un chèque de caution de 800 euros vous sera demandé lors de votre arrivée, et vous sera restitué le jour de votre départ, si aucune dégradation n’est constatée.<br />
             La taxe de séjour est prise en charge par nos soins (elle est due pour toutes les personnes supérieures à 16 ans, elle est due à la commune de DESHAIES : 0,30 € /jour /personne)<br />
-            Nous vous demandons une participation pour le ménage de fin de séjour, le tarif est de 60€.<br />
+            Nous vous demandons une participation pour le ménage de fin de séjour, le tarif est de 70€ à régler sur place à la remise des clés en espèce...<br />
 entity:
     contact:
         name: "Votre nom"

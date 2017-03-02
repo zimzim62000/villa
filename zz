@@ -1,0 +1,45 @@
+#!/app/bash
+
+clean=false
+
+if [ $1 = "ccdev" ]
+then
+    php /home/zimzim/valou/villa/bin/console cache:clear
+    clean=true
+    break
+fi
+
+if [ $1 = "ccprod" ]
+then
+    php /home/zimzim/valou/villa/bin/console cache:clear --env=prod
+    clean=true
+    break
+fi
+
+if [ $1 = "assets" ]
+then
+    sudo php /home/zimzim/valou/villa/bin/console assets:install --symlink
+    break
+fi
+
+if [ $1 = "deploy" ]
+then
+    sudo php /home/zimzim/valou/villa/bin/console assetic:dump
+    break
+fi
+
+if [ $1 = "sql" ]
+then
+    php /home/zimzim/valou/villa/bin/console doctrine:schema:update --force
+    break
+fi
+
+if [ $clean = true ]
+then
+    sudo chmod -R 0770 /home/zimzim/valou/villa/var/cache
+    sudo chown -R zimzim:www-data /home/zimzim/valou/villa/var/cache
+    sudo chmod -R 0770 /home/zimzim/valou/villa/var/logs
+    sudo chown -R zimzim:www-data /home/zimzim/valou/villa/var/logs
+    break
+fi
+

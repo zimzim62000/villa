@@ -10,33 +10,51 @@
     <p class="secondary-color text-center">{{ "app.contact.p"|trans }}</p>
 
     <div class="row full-width">
-        <div class="large-8 columns form-panel" style="min-height:400px">
+    {% if success is defined %}
+            <div class="medium-8 columns">
+                <div class="callout large success">
+                    <h2 class="form-success">{{  "app.contact.success"|trans }}</h2>
+                </div>
+            </div>
+    {% else %}
+        <div class="medium-8 columns form-panel" style="min-height:400px">
             <div class="row full-width">
                 {{ form_start(form) }}
+
+                {% if form_errors(form) %}
+                    <div class="medium-12 columns">
+                        <div class="alert-box alert">
+                            {{ form_errors(form) }}
+                        </div>
+                    </div>
+                {% endif %}
+
                 <div class="medium-6 columns">
                     <label>
                         {{ 'entity.contact.name'|trans }}
-                        {{ form(form.name) }}
+                        {{ form_widget(form.name) }}
                     </label>
                 </div>
-                <div class="small-6 columns">
+                <div class="medium-6 columns">
                     <label>
                         {{ 'entity.contact.email'|trans }}
-                        {{ form(form.email) }}
+                        {{ form_widget(form.email) }}
                     </label>
                 </div>
-                <div class="small-8 small-centered columns">
+                <div class="medium-8 medium-centered columns">
                     <label>
                         {{ 'entity.contact.message'|trans }}
-                        {{ form(form.message) }}
+                        {{ form_widget(form.message) }}
                     </label>
                 </div>
-                <div class="small-8 small-centered columns text-center">
-                    {{ form_rest(form) }}
+                <div class="medium-8 medium-centered columns text-center">
+                    {{ form_widget(form.save) }}
                 </div>
+                {{ form_end(form) }}
             </div>
         </div>
-        <div class="large-4 columns form-panel text-center" style="min-height:400px">
+    {% endif %}
+        <div class="medium-4 columns form-panel text-center" style="min-height:400px">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15314.277495167951!2d-61.773333!3d16.344933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd3c0be10e7f27e1a!2svilla-desiree!5e0!3m2!1sfr!2sfr!4v1484839068316"
                     width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>

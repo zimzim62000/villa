@@ -6302,3 +6302,8 @@ a.button.success {
 a.button.success:hover {
   color: #4D006C;
 }
+
+/* line 111, ../scss/index.scss */
+h2.form-success {
+  color: greenyellow;
+}

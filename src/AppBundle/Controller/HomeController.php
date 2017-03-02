@@ -41,6 +41,7 @@ class HomeController extends Controller
                     ->setSubject('Nouveau message de la villadésirée.com')
                     ->setFrom('villadesiree.guadeloupe@gmail.com')
                     ->setTo('villadesiree.guadeloupe@gmail.com')
+                    ->setCC('bielawski.ov@gmail.com')
                     ->setBcc('zimzim62000@gmail.com')
                     ->setBody(
                         $this->renderView(

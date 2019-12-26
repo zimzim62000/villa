@@ -17,7 +17,7 @@
                 </div>
             </div>
     {% else %}
-        <div class="medium-8 columns form-panel" style="min-height:400px">
+        <div class="medium-8 columns form-panel panel" style="min-height:400px">
             <div class="row full-width">
                 {{ form_start(form) }}
 
@@ -47,6 +47,13 @@
                         {{ form_widget(form.message) }}
                     </label>
                 </div>
+
+		<div class="medium-8 medium-centered columns">
+                    {{ 'entity.contact.captcha'|trans }}
+                    {{ form_errors(form.captcha) }}
+                    {{ form_widget(form.captcha) }}
+                </div>
+
                 <div class="medium-8 medium-centered columns text-center">
                     {{ form_widget(form.save) }}
                 </div>

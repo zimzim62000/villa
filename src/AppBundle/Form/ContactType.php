@@ -8,6 +8,8 @@ use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
+use Gregwar\CaptchaBundle\Type\CaptchaType;
+
 class ContactType extends AbstractType
 {
     /**
@@ -18,9 +20,10 @@ class ContactType extends AbstractType
         $builder->add('name')
             ->add('email')
             ->add('message', TextareaType::class, array('attr' => array('class' => 'medium')))
+            ->add('captcha', CaptchaType::class)
             ->add('save', SubmitType::class, array('label' => 'envoyer',  'attr' => array('class' => 'button text-center')));
     }
-    
+
     /**
      * {@inheritdoc}
      */

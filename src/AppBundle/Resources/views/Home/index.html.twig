@@ -132,14 +132,19 @@
         </div>
     </div>
     <div class="row full-width">
-        <div class="small-6 columns text-center padding-bottom">
+        <div class="small-4 columns text-center padding-bottom">
             {% image '@AppBundle/Resources/public/images/la_cuisine_de_la_villa.jpg' %}
             <img class="" src="{{ asset_url }}"  alt="{{ 'image.cuisine1'|trans }}" title="{{ 'image.cuisine1'|trans }}" />
             {% endimage %}
         </div>
-        <div class="small-6 columns text-center">
+        <div class="small-4 columns text-center">
             {% image '@AppBundle/Resources/public/images/salon_interieur.jpg' %}
             <img class="" src="{{ asset_url }}"  alt="{{ 'image.cuisine3'|trans }}" title="{{ 'image.cuisine3'|trans }}" />
+            {% endimage %}
+        </div>
+	<div class="small-4 columns text-center">
+            {% image '@AppBundle/Resources/public/images/maison_interieur.jpg' %}
+            <img class="" src="{{ asset_url }}"  alt="{{ 'image.cuisine2'|trans }}" title="{{ 'image.cuisine2'|trans }}" />
             {% endimage %}
         </div>
     </div>
@@ -200,7 +205,25 @@
             {% endimage %}
         </div>
 
-
+    </div>
+    <div class="row full-width">
+	<div class="small-4 columns text-center padding-bottom">
+            {% image '@AppBundle/Resources/public/images/fleur_1.jpg' %}
+            <img class="" src="{{ asset_url }}" alt="{{ 'image.fleur1'|trans }}" title="{{ 'image.fleur1'|trans }}" />
+            {% endimage %}
+        </div>
+        <div class="small-4 columns text-center">
+            {% image '@AppBundle/Resources/public/images/fleur_2.jpg' %}
+            <img class="" src="{{ asset_url }}" alt="{{ 'image.fleur2'|trans }}" title="{{ 'image.fleur2'|trans }}" />
+            {% endimage %}
+        </div>
+        <div class="small-4 columns text-center">
+            {% image '@AppBundle/Resources/public/images/fleur_3.jpg' %}
+            <img class="" src="{{ asset_url }}" alt="{{ 'image.fleur3'|trans }}" title="{{ 'image.fleur3'|trans }}"  />
+            {% endimage %}
+        </div>
+    </div>
+    <div class="row full-width">
         <div class="small-4 small-centered columns text-center padding-bottom padding-top">
         <a href="{{ path('app_home_cost') }}"
            class="button success large">{{ 'app.index.clicktocall'|trans }}</a>

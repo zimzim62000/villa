@@ -138,22 +138,23 @@ app:
             Moyenne et Haute saison : 7 nuits minimum<br />
         tarifs: "Les tarifs"
         legendetarifs: >
-            Basse saison : mai, juin, septembre – octobre<br />
-            Moyenne saison : juillet, aout, toussaint, novembre, du 1er au 15 décembre<br />
-            Haute saison : 16 – 23 décembre, janvier, février, mars, avril<br />
-            Trés Haute saison : 24 décembre au 7 janvier<br />
+            Basse saison : mai, juin, septembre et octobre<br />
+            Moyenne saison : juillet, aout, vacances de Toussaint, novembre, début décembre<br />
+            Haute saison : décembre, janvier, février, mars, avril<br />
+            Trés Haute saison : Vacances de noel, nouvel an<br />
         condition: "Les conditions"
         condiplus: >
             La réservation est effective après encaissement d’un chèque (ou virement) correspondant à 50% du montant de la location<br />
             Le solde sera versé par chèque ou virement une semaine avant l'arrivée<br />
             Un chèque de caution de 800 euros vous sera demandé lors de votre arrivée, et vous sera restitué le jour de votre départ, si aucune dégradation n’est constatée.<br />
-            La taxe de séjour : elle est due à la commune de DESHAIES pour toutes les personnes à partir de 18 ans. (1€/jour/personne)<br />
+            La taxe de séjour : OFFERTE, elle est due à la commune de DESHAIES pour toutes les personnes à partir de 18 ans.<br />
             Nous vous demandons une participation pour le ménage de fin de séjour, le tarif est de 70€ à régler sur place à la remise des clés en espèce...<br />
 entity:
     contact:
         name: "Votre nom"
         email: "Votre email"
         message: "Votre demande"
+        captcha: "Captcha"
 
 image:
     deshaie: "la ville de Deshaies en guadeloupe"
@@ -182,7 +183,7 @@ image:
     chambre3: "La chambre mezannine de la villa desiree"
     chambre4: "La chambre jaune de la villa desiree"
     cuisine1: "La cuisine de la villa"
-    cuisine2: "La table a manger le soir"
+    cuisine2: "Le coin bureau"
     cuisine3: "Le petit salon intérieur"
     piscine1: "La piscine avec ses transats"
     piscine2: "La piscine avec ses transats et son magnifique palmier"
@@ -191,3 +192,6 @@ image:
     terasse2: "La terrase le soir"
     terasse3: "La terrase et la sa table le matin"
     terasse4: "La terrase et la sa table le soir"
+    fleur1: "Le magnigique Hibiscus"
+    fleur2: "Le Bananier et un palmier"
+    fleur3: "Et pour le plaisir encore ce magnigique Hibiscus"
